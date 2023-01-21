@@ -32,7 +32,7 @@ p {
 }
 
 #opening-header {
-  background: linear-gradient(180deg,rgba(34,34,34,.6),hsla(0,0%,100%,.15),hsla(0,0%,100%,.05)),url(https://media.gq-magazine.co.uk/photos/61fd48f29e6a5729a6108d71/3:2/w_1620,h_1080,c_limit/03022022_3_HP.jpeg) no-repeat 50%;
+  /* background: linear-gradient(180deg,rgba(34,34,34,.6),hsla(0,0%,100%,.15),hsla(0,0%,100%,.05)),url(https://media.gq-magazine.co.uk/photos/61fd48f29e6a5729a6108d71/3:2/w_1620,h_1080,c_limit/03022022_3_HP.jpeg) no-repeat 50%; */
   background-size: cover;
   height: 75vh;
   margin-left: calc(-50vw + 50%);
@@ -87,8 +87,8 @@ p {
 .video-docker::after {
   content: "";
   position: absolute;
-  width: 100%;
-  height: 100%;
+  height: 75vh;
+  width: 100vw;
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.6);

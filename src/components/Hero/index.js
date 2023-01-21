@@ -23,11 +23,11 @@ const Hero = () => {
         //     </div>
         // </header>
 
-        <section className="relative h-screen flex flex-col items-center justify-center text-center text-white py-0 px-3">
+        <section id='opening-header' className="relative md:mt-28 flex flex-col items-center justify-center text-center text-white py-0 px-3">
             <div className="video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
                 <video className="min-w-full min-h-full absolute object-cover" src="https://josecuono.dev/video1.mp4" type="video/mp4" autoPlay muted loop></video>
             </div>
-            <div className="video-content -mt-40 md:mt-0 space-y-2 flex flex-col justify-start items-center max-w-none md:max-w-screen-xl mx-auto md:max-h-screen space-x-0 px-3">
+            <div className="video-content space-y-2 flex flex-col justify-start items-center max-w-none md:max-w-screen-xl mx-auto md:max-h-screen space-x-0 px-3">
                 <div className="w-full md:w-1/2">
                     <h1 className="text-center">{t('header-main')}</h1>
                 </div>
