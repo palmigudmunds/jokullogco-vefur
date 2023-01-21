@@ -1,11 +1,11 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 
 const PricesHeader = () => {
 
-    let navigate = useNavigate();
+    // let navigate = useNavigate();
 
     const { t } = useTranslation();
     
