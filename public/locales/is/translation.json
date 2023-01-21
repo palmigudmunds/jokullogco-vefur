@@ -6,7 +6,7 @@
     "language": "EN",
 
     "header-main": "Láttu fara vel um þig hjá okkur, alvöru jakkaföt bla bla bla",
-    "order-button": "Panta tíma",
+    "order-button": "Bóka tíma",
 
     "tailor-info-title": "Sérsaumur - hvernig virkar ferlið?",
     "tailor-info-text-1": "Sérsaumur þýðir bókstaflega “saumað fyrir ákveðin einstakling”. en hjá okkur fer framgangurinn sem fylgir:",
@@ -31,6 +31,8 @@
     "contact-help-option4": "Annað",
     "contact-message": "Skilaboð",
     "contact-submit": "Senda",
+
+    "prices-title": "Verð & virði",
 
     "footer-rights": "© 2023 Allur réttur áskilinn."
   }

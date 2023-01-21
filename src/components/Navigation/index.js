@@ -52,7 +52,7 @@ const Navigation = () => {
     }
 
     return (
-        <nav className={`mx-auto inset-x-0 h-auto z-40 w-full  text-xl bg-slate-50 border-b border-maingold transition-all duration-300 sticky ${visible ? 'top-0' : '-top-24'} md:fixed md:top-0`}>
+        <nav className={`mx-auto inset-x-0 h-16 md:h-28 z-40 w-full bg-slate-50 border-b border-maingold transition-all duration-300 sticky ${visible ? 'top-0' : '-top-16'} md:fixed md:top-0`}>
             <div className='max-w-screen-2xl flex md:mx-auto justify-center px-6 relative'>
                 <div className='flex space-x-4 lg:space-x-10 justify-between items-center'>
                     <NavLink to={`/#tailor`}>
@@ -75,8 +75,8 @@ const Navigation = () => {
                         {t('nav-prices')}
                     </NavLink>
                 </div>
-                <div className='flex items-center absolute inset-y-0 right-0 w-16 space-x-1 cursor-pointer text-maindarkblue hover:text-maingold fill-maindarkblue hover:fill-maingold duration-100 ease-in-out' onClick={() => changeLocale()}>
-                    <World className='-mb-0.5 lg:-mb-px w-3.5 h-auto'/>
+                <div className='absolute right-0 mt-5 md:mt-10 flex items-center w-16 space-x-1 cursor-pointer text-maindarkblue hover:text-maingold fill-maindarkblue hover:fill-maingold duration-100 ease-in-out' onClick={() => changeLocale()}>
+                    <World className='mb-px w-3.5 h-auto'/>
                     <NavLink >
                         <button className='text-base lg:text-lg'>{t('language')}</button>
                     </NavLink>

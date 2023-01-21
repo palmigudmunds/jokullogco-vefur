@@ -1,8 +1,3 @@
-// import MainMenu from '../../components/MainMenu';
-// import AboutUs from '../../components/AboutUs';
-// import HoursLocation from "../../components/HoursLocation";
-// import ContactUs from '../../components/ContactUs';
-// import Footer from '../../components/Footer';
 import Container from '../../components/container';
 import Loading from '../../components/Loading';
 import { Suspense } from 'react';

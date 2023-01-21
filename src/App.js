@@ -7,6 +7,7 @@ import LocaleContext from './LocaleContext';
 import Navigation from "./components/Navigation";
 import FrontPage from "./Views/FrontPage";
 import Footer from "./components/Footer";
+import PricesPageView from "./Views/PricesPage";
 
 function App() {
 
@@ -44,7 +45,7 @@ function App() {
           <Navigation />
           <Routes>
             <Route path="/" element={<FrontPage/>} />
-            {/* <Route activeClassName='text-maingold' exact path="/menu" element={<Menu/>}  /> */}
+            <Route activeClassName='text-maingold' exact path="/prices" element={<PricesPageView/>}  />
           </Routes>
           <Footer />
         </div>

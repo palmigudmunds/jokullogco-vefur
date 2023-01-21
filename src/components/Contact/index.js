@@ -8,8 +8,8 @@ const Contact = () => {
 
     const { t } = useTranslation();
 
-    const SERVICE_ID = "service_9m0nylf";
-    const TEMPLATE_ID = "template_djr75os";
+    const SERVICE_ID = "service_fddizqd";
+    const TEMPLATE_ID = "template_kjhhcmh";
     const USER_ID = "6IvRmXwrdvAQ55kMg";
 
     const onSubmit = (e) => {
@@ -57,19 +57,19 @@ const Contact = () => {
                                 />
                         </div>
                         <div className='w-full'>
-                            <label className="label md:mb-2" for="email">
+                            <label className="label md:mb-2" for="form-input-control-email">
                                 {t('contact-email')}
                             </label>
                             <input 
                                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-blue-500 focus:border-blue-500" 
                                 id="form-input-control-email" 
                                 name='user_email'
-                                type="text"
+                                type="email"
                                 required
                                 />
                         </div>
                         <div className='w-full'>
-                            <label className="label md:mb-2" for="phone">
+                            <label className="label md:mb-2" for="form-input-control-phone">
                                 {t('contact-phone')}
                             </label>
                             <input 
@@ -81,18 +81,19 @@ const Contact = () => {
                                 />
                         </div>
                         <div className='w-full'>
-                            <label className="label md:mb-2" for="help">
-                                {t('contact-help')}
+                            <label className="label md:mb-2" for="form-input-control-help">
+                                {t('contact-help')} 
                             </label>
                             <select className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-blue-500 focus:border-blue-500"
-                                id="form-input-control-phone" name="user_help">
-                                <option value="appointment">{t('contact-help-option2')}</option>
-                                <option value="accessories">{t('contact-help-option1')}</option>
-                                <option value="fabrics">{t('contact-help-option3')}</option>
-                                <option value="other">{t('contact-help-option4')}</option>
+                                id="form-input-control-help" name="user_help">
+                                <option selected></option>
+                                <option value="Appointment">{t('contact-help-option2')}</option>
+                                <option value="Accessories">{t('contact-help-option1')}</option>
+                                <option value="Fabrics">{t('contact-help-option3')}</option>
+                                <option value="Other">{t('contact-help-option4')}</option>
                             </select>
                         </div>
-                        <div className='w-full md:h-full'>
+                        <div className='w-full h-24'>
                             <label className="label md:mb-2" for="message">
                                 {t('contact-message')}
                             </label>
@@ -105,7 +106,7 @@ const Contact = () => {
                             ></textarea>
                         </div>
                     </div>
-                    <div className="mt-10 md:mt-5 flex items-start">
+                    <div className="mt-12 md:mt-10 flex items-start">
                         <button
                             className="bg-maingold text-white text-lg md:text-xl py-2 px-10 border border-white hover:bg-white hover:text-maingold hover:border-maingold ease-in-out duration-200"
                             type="submit"

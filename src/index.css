@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,300;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap");
 
 @tailwind base;
@@ -7,33 +8,46 @@
 
 body { 
     background: #ffffff;
-    font-family: 'Gelasio', sans;
+    font-family: 'Gelasio', serif;
     @apply bg-slate-50;
 }
 
 h1 {
-    font-family: 'Gelasio', sans;
+    font-family: 'Gelasio', serif;
     @apply lg:text-6xl text-5xl text-white
 }
 
 h2 {
-    font-family: 'Gelasio', sans;
-    @apply text-3xl font-medium text-maindarkblue
+    font-family: 'Gelasio', serif;
+    @apply text-3xl font-medium text-maindarkblue uppercase
 }
 
 p {
-  font-family: 'Gelasio', sans;
-  @apply text-base font-light md:font-normal text-black leading-relaxed
+  font-family: 'Gelasio', serif;
+  @apply text-base font-normal md:font-normal text-black leading-relaxed
 }
 
 .link {
-  @apply text-base lg:text-lg cursor-pointer hover:text-maingold duration-100 ease-in-out;
+  @apply text-base lg:text-base uppercase cursor-pointer hover:text-maingold duration-100 ease-in-out;
 }
 
 #opening-header {
   background: linear-gradient(180deg,rgba(34,34,34,.6),hsla(0,0%,100%,.15),hsla(0,0%,100%,.05)),url(https://media.gq-magazine.co.uk/photos/61fd48f29e6a5729a6108d71/3:2/w_1620,h_1080,c_limit/03022022_3_HP.jpeg) no-repeat 50%;
   background-size: cover;
-  height: 90vh;
+  height: 75vh;
   margin-left: calc(-50vw + 50%);
   width: 100vw;
+}
+
+#prices-header {
+  background: linear-gradient(180deg,rgba(34,34,34,.6),hsla(0,0%,100%,.15),hsla(0,0%,100%,.05)),url(https://media.gq-magazine.co.uk/photos/61fd48f29e6a5729a6108d71/3:2/w_1620,h_1080,c_limit/03022022_3_HP.jpeg) no-repeat 50%;
+  background-size: cover;
+  height: 50vh;
+  margin-left: calc(-50vw + 50%);
+  width: 100vw;
+  @apply h-[20vh] md:h-[50vh];
+}
+
+select {
+  -webkit-appearance: listbox !important
 }
