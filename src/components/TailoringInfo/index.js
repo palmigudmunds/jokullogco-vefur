@@ -8,9 +8,9 @@ const TailoringInfo = () => {
     const { t } = useTranslation();
     
     return (
-        <div id="tailor" className="flex flex-col md:flex-row justify-start max-w-none">
+        <div id="tailor" className="flex flex-col md:flex-row justify-center max-w-none">
             <div className="md:w-1/2 flex flex-col items-center">
-                <h2 className="text-start md:w-10/12 lg:w-8/12">{t('tailor-info-title')}</h2>
+                <h2 className="text-center md:text-start md:w-10/12 lg:w-8/12">{t('tailor-info-title')}</h2>
                 <p className="pt-5 md:w-10/12 lg:w-8/12">
                     {t('tailor-info-text-1')}
                     <br></br><br></br>
