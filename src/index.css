@@ -14,12 +14,12 @@ body {
 
 h1 {
     font-family: 'Gelasio', serif;
-    @apply lg:text-6xl text-5xl text-white
+    @apply lg:text-6xl text-4xl text-white
 }
 
 h2 {
     font-family: 'Gelasio', serif;
-    @apply text-3xl font-medium text-maindarkblue uppercase
+    @apply text-2xl md:text-3xl font-medium text-maindarkblue uppercase
 }
 
 p {
@@ -55,7 +55,7 @@ p {
 
 .logo {
 	display: inline-block;
-  @apply w-16 md:w-28 h-auto
+  @apply w-20 md:w-28 h-auto
 }
 
 .nav-li {
@@ -77,6 +77,26 @@ p {
 .left-navlist {
 	text-align: right;
   @apply pr-[50px] lg:pr-[70px]
+}
+
+.video-docker video {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.video-docker::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.video-content {
+  z-index: 2;
 }
 
 select {

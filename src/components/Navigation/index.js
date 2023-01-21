@@ -52,7 +52,7 @@ const Navigation = () => {
     }
 
     return (
-        <nav className={`mx-auto relative inset-x-0 h-16 md:h-28 z-40 w-full bg-slate-50 border-b border-maingold transition-all duration-300 sticky ${visible ? 'top-0' : '-top-16'} md:fixed md:top-0`}>
+        <nav className={`mx-auto relative inset-x-0 h-20 md:h-28 z-40 w-full bg-slate-50 border-b border-maingold transition-all duration-300 sticky ${visible ? 'top-0' : '-top-20'} md:fixed md:top-0`}>
             <div className="">
                 <div className="logo-wrapper">
                     <div className="logo">
@@ -94,7 +94,7 @@ const Navigation = () => {
                     </ul>
                 </div>
             </div>
-            <div className='absolute right-0 mt-5 md:mt-0 flex items-center w-16 space-x-1 cursor-pointer text-maindarkblue hover:text-maingold fill-maindarkblue hover:fill-maingold duration-100 ease-in-out' onClick={() => changeLocale()}>
+            <div className='absolute right-0 mt-3 md:mt-0 flex items-center w-16 space-x-1 cursor-pointer text-maindarkblue hover:text-maingold fill-maindarkblue hover:fill-maingold duration-100 ease-in-out' onClick={() => changeLocale()}>
                 <World className='mb-px w-3.5 h-auto'/>
                 <NavLink >
                     <button className='text-base lg:text-lg'>{t('language')}</button>
