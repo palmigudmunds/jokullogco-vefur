@@ -28,7 +28,7 @@ p {
 }
 
 .link {
-  @apply text-base lg:text-base uppercase cursor-pointer hover:text-maingold duration-100 ease-in-out;
+  @apply text-sm lg:text-base uppercase cursor-pointer hover:text-maingold duration-100 ease-in-out;
 }
 
 #opening-header {
@@ -46,6 +46,37 @@ p {
   margin-left: calc(-50vw + 50%);
   width: 100vw;
   @apply h-[20vh] md:h-[50vh];
+}
+
+.logo-wrapper {
+	text-align: center;
+	margin-bottom: -65px;
+}
+
+.logo {
+	display: inline-block;
+  @apply w-16 md:w-28 h-auto
+}
+
+.nav-li {
+  display: inline-block;
+  @apply pt-0 px-[16px] lg:px-[30px] pb-[30px]
+}
+
+.half {
+	width: 50%;
+	display: block;
+	float: left;
+}
+
+.right-navlist {
+	padding-left: 70px;
+  @apply pl-[50px] lg:pl-[70px]
+}
+
+.left-navlist {
+	text-align: right;
+  @apply pr-[50px] lg:pr-[70px]
 }
 
 select {
