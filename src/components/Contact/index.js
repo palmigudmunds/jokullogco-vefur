@@ -37,7 +37,7 @@ const Contact = () => {
     
     return (
         <div id="contact" className="flex flex-col md:flex-row justify-start max-w-none">
-            <div className="md:w-1/2 flex flex-col items-center">
+            <div className="md:w-1/2 flex flex-col items-start md:items-center">
                 <h2 className="text-start md:w-10/12 lg:w-8/12">{t('contact-title')}</h2>
                 <p className="pt-5 italic md:w-10/12 lg:w-8/12">{t('contact-text')}</p>
             </div>
@@ -49,7 +49,7 @@ const Contact = () => {
                                 {t('contact-name')}
                             </label>
                             <input 
-                                className="shadow appearance-none border rounded w-full mb-3 md:mb-0 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-blue-500 focus:border-blue-500" 
+                                className="shadow appearance-none border rounded w-full mb-3 md:mb-0 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-blue-500 focus:border-maingold" 
                                 id="form-input-control-last-name" 
                                 name='user_name'
                                 type="text"
@@ -61,7 +61,7 @@ const Contact = () => {
                                 {t('contact-email')}
                             </label>
                             <input 
-                                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-blue-500 focus:border-blue-500" 
+                                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-blue-500 focus:border-maingold" 
                                 id="form-input-control-email" 
                                 name='user_email'
                                 type="email"
@@ -73,18 +73,17 @@ const Contact = () => {
                                 {t('contact-phone')}
                             </label>
                             <input 
-                                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-blue-500 focus:border-blue-500" 
+                                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-blue-500 focus:border-maingold" 
                                 id="form-input-control-phone" 
                                 name='user_phone'
                                 type="tel"
-                                required
                                 />
                         </div>
                         <div className='w-full'>
                             <label className="label md:mb-2" for="form-input-control-help">
                                 {t('contact-help')} 
                             </label>
-                            <select className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-blue-500 focus:border-blue-500"
+                            <select className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-blue-500 focus:border-maingold"
                                 id="form-input-control-help" name="user_help">
                                 <option selected></option>
                                 <option value="Appointment">{t('contact-help-option2')}</option>
@@ -98,7 +97,7 @@ const Contact = () => {
                                 {t('contact-message')}
                             </label>
                             <textarea 
-                                className="block shadow appearance-none h-full border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-blue-500 focus:border-blue-500" 
+                                className="block shadow appearance-none h-full border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-blue-500 focus:border-maingold" 
                                 id='form-textarea-control-opinion'
                                 name='user_message'
                                 type="text"

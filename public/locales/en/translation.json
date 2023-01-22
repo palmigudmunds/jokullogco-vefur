@@ -21,15 +21,15 @@
 
     "contact-title": "Contact us",
     "contact-text": "Hringdu í okkur í síma 58-12345, eða notaðu þetta form til að spyrjast fyrir um stílráð og klút, panta tíma fyrir mátun eða til að ræða þarfir þínar við einn af klippurunum okkar.",
-    "contact-name": "Name",
-    "contact-email": "Email",
+    "contact-name": "Name*",
+    "contact-email": "Email*",
     "contact-phone": "Phone number",
     "contact-help": "What would you like help with?",
     "contact-help-option1": "Accessories",
     "contact-help-option2": "Appointments",
     "contact-help-option3": "Fabrics",
     "contact-help-option4": "Other",
-    "contact-message": "Message",
+    "contact-message": "Message*",
     "contact-submit": "Submit form",
 
     "prices-title": "Prices",

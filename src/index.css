@@ -8,26 +8,27 @@
 
 body { 
     background: #ffffff;
-    font-family: 'Gelasio', serif;
+    font-family: 'Lora', serif;
     @apply bg-slate-50;
 }
 
 h1 {
     font-family: 'Gelasio', serif;
-    @apply lg:text-6xl text-4xl text-white
+    @apply lg:text-6xl text-4xl text-white font-semibold
 }
 
 h2 {
     font-family: 'Gelasio', serif;
-    @apply text-2xl md:text-3xl font-medium text-maindarkblue uppercase
+    @apply text-2xl md:text-3xl font-semibold text-maindarkblue uppercase
 }
 
 p {
-  font-family: 'Gelasio', serif;
+  font-family: 'Lora', serif;
   @apply text-base font-normal md:font-normal text-black leading-relaxed
 }
 
 .link {
+  font-family: 'Gelasio', serif;
   @apply text-sm lg:text-base uppercase cursor-pointer hover:text-maingold duration-100 ease-in-out;
 }
 
