@@ -10,6 +10,9 @@ const isSafari = () => {
 const mainVideo =
     "https://josecuono.dev/video1.mp4";
 
+const backupImage =
+    "https://media.gq-magazine.co.uk/photos/61fd48f29e6a5729a6108d71/3:2/w_1620,h_1080,c_limit/03022022_3_HP.jpeg";
+
 
 const Hero = () => {
 
@@ -23,8 +26,8 @@ const Hero = () => {
     useEffect(() => {
         // check if user agent is safari and we have the ref to the container <div />
         if (isSafari() && videoParentRef.current) {
-        // obtain reference to the video element
-        const player = videoParentRef.current.children[0];
+            // obtain reference to the video element
+            const player = videoParentRef.current.children[0];
 
         // if the reference to video player has been obtained
         if (player) {
@@ -59,7 +62,7 @@ const Hero = () => {
     return shouldUseImage ? (
         <section id='opening-header' className="relative md:mt-28 flex flex-col items-center justify-center text-center text-white py-0 px-3">
                 <div className="video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
-                    <img className="min-w-full min-h-full absolute object-cover" src={mainVideo} alt="Muted video"/>
+                    <img className="min-w-full min-h-full absolute object-cover" src={backupImage} alt="Muted video"/>
                 </div>
                 <div className="video-content space-y-2 flex flex-col justify-start items-center max-w-none md:max-w-screen-xl mx-auto md:max-h-screen space-x-0 px-3">
                     <div className="w-full md:w-1/2">

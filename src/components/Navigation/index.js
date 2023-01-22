@@ -1,4 +1,5 @@
 import React, { useContext, useState, useEffect } from 'react';
+import Hamburger from 'hamburger-react'
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import LocaleContext from '../../LocaleContext';
@@ -17,6 +18,8 @@ const Navigation = () => {
     const { locale } = useContext(LocaleContext);
 
     const [prevScrollPos, setPrevScrollPos] = useState(0);
+
+    const [isNavOpen, setIsNavOpen] = useState(false);
 
     const [visible, setVisible] = useState(true)
 
@@ -52,7 +55,41 @@ const Navigation = () => {
     }
 
     return (
-        <nav className={`mx-auto relative inset-x-0 h-20 md:h-28 z-40 w-full bg-slate-50 border-b border-maingold transition-all duration-300 sticky ${visible ? 'top-0' : '-top-20'} md:fixed md:top-0`}>
+        <nav className={`mx-auto relative inset-x-0 h-20 md:h-28 z-40 w-full bg-white border-b border-maingold transition-all duration-300 sticky ${visible || isNavOpen? 'top-0' : '-top-20'} md:fixed md:top-0`}>
+            <section className="MOBILE-MENU flex md:hidden">
+
+                <div className="absolute left-0 mt-4 ml-6 z-20">
+                    <Hamburger toggled={isNavOpen} toggle={setIsNavOpen} color="#162135" direction="left" size={24} />
+                </div>
+                <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
+                    <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-left justify-start min-h-screen ml-6 mt-40 -space-y-4">
+                        <li className='nav-li'>
+                            <NavLink to={`/#tailor`}>
+                                <button className='link text-maindarkblue' onClick={() => setIsNavOpen(false)}>{t('nav-tailor')}</button>
+                            </NavLink>
+                        </li>
+                        <li className='nav-li'>
+                            <NavLink to={`/#about-us`}>
+                                <button className='link text-maindarkblue' onClick={() => setIsNavOpen(false)}>{t('nav-about')}</button>
+                            </NavLink>
+                        </li>
+                        <li className='nav-li'>
+                            <NavLink to={`/#contact`}>
+                                <button className='link text-maindarkblue' onClick={() => setIsNavOpen(false)}>{t('nav-contact')}</button>
+                            </NavLink>
+                        </li>
+                        <li className='nav-li'>
+                            <NavLink to={`/prices`} 
+                                className={({ isActive }) =>
+                                    isActive ? 'text-maingold link' : 'text-maindarkblue link'
+                                }
+                                onClick={() => setIsNavOpen(false)}>
+                            {t('nav-prices')}
+                            </NavLink>
+                        </li>
+                    </ul>
+                </div>
+            </section>
             <div className="">
                 <div className="logo-wrapper">
                     <div className="logo">
