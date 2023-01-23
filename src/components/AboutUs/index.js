@@ -1,10 +1,13 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router-dom';
 import owner from '../../resources/owner.png';
 
 const AboutUs = () => {
 
     const { t } = useTranslation();
+
+    let navigate = useNavigate();
     
     return (
         <div id="about-us" className="flex flex-col-reverse md:flex-row justify-center max-w-none">
@@ -16,6 +19,11 @@ const AboutUs = () => {
                 <p className="pt-5 md:w-10/12 lg:w-8/12">
                     {t('about-text')}
                 </p>
+                <div className="mt-5 md:mt-10 flex items-start">
+                    <button
+                        className="bg-maingold text-white text-lg md:text-xl py-2 px-10 border border-white hover:bg-white hover:text-maingold hover:border-maingold ease-in-out duration-200"
+                        onClick={()=> navigate('/prices')}>{t('look-at-prices-button')}</button>
+                </div>
             </div>
         </div>
     );
