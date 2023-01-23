@@ -55,7 +55,24 @@ p {
 
 .logo {
 	display: inline-block;
-  @apply w-20 md:w-28 h-auto
+  @apply w-20 md:w-28 h-auto hover:fill-maingold duration-100 ease-in-out
+}
+
+.logo:hover {
+	display: inline-block;
+  filter: invert(65%) sepia(98%) saturate(334%) hue-rotate(6deg) brightness(89%) contrast(95%);
+  @apply duration-100 ease-in-out
+}
+
+.footer-logo {
+	display: inline-block;
+  filter: invert(65%) sepia(98%) saturate(334%) hue-rotate(6deg) brightness(89%) contrast(95%);
+  @apply w-24 h-auto duration-100 ease-in-out hover:fill-white
+}
+
+.footer-logo:hover {
+  filter: brightness(0) invert(1);
+  @apply duration-100 ease-in-out
 }
 
 .nav-li {
