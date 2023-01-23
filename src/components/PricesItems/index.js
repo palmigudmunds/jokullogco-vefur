@@ -8,10 +8,10 @@ const PricesItems = () => {
     
     return (
         <div className='flex flex-col justify-center items-center'>
-            <div className="w-full md:w-3/6 mb-48">
-                <div className='flex flex-row items-center w-full h-20 md:h-32 mb-9 lg:mb-10'>
-                    <div className="flex flex-col justify-center w-full">
-                        <ul className='leaders'>
+            <div className="w-full md:w-3/6 mb-96">
+                <div className='flex flex-row items-start w-full h-20 md:h-32 mb-9 lg:mb-10'>
+                    <div className="flex flex-col justify-start w-full">
+                        <ul className='leaders space-y-10'>
                             <li>
                                 <span>{t('prices-suits')}</span>
                                 <span>79.980,-kr.</span>
