@@ -8,6 +8,7 @@ import Navigation from "./components/Navigation";
 import FrontPage from "./Views/FrontPage";
 import Footer from "./components/Footer";
 import PricesPageView from "./Views/PricesPage";
+import ContactPageView from "./Views/ContactPage";
 
 function App() {
 
@@ -46,6 +47,7 @@ function App() {
           <Routes>
             <Route path="/" element={<FrontPage/>} />
             <Route activeClassName='text-maingold' exact path="/prices" element={<PricesPageView/>}  />
+            <Route activeClassName='text-maingold' exact path="/contact" element={<ContactPageView/>}  />
           </Routes>
           <Footer />
         </div>

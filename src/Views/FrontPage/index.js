@@ -5,7 +5,7 @@ import { Suspense } from 'react';
 import Hero from '../../components/Hero';
 import TailoringInfo from '../../components/TailoringInfo';
 import AboutUs from '../../components/AboutUs';
-import Contact from '../../components/Contact';
+// import Contact from '../../components/Contact';
 
 const FrontPageView = () => {
 
@@ -17,7 +17,7 @@ const FrontPageView = () => {
 					<Container>
 						<TailoringInfo/>
 						<AboutUs/>
-						<Contact/>
+						{/* <Contact/> */}
 					</Container>
                 </div>
 			</Suspense>

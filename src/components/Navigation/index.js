@@ -64,15 +64,6 @@ const Navigation = () => {
                 <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
                     <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-left justify-start min-h-screen ml-5 mt-40 -space-y-4">
                         <li className='nav-li'>
-                            <NavLink to={`/prices`} 
-                                className={({ isActive }) =>
-                                    isActive ? 'text-maingold link' : 'text-maindarkblue link'
-                                }
-                                onClick={() => setIsNavOpen(false)}>
-                            {t('nav-prices')}
-                            </NavLink>
-                        </li>
-                        <li className='nav-li'>
                             <NavLink to={`/#tailor`}>
                                 <button className='link text-maindarkblue' onClick={() => setIsNavOpen(false)}>{t('nav-tailor')}</button>
                             </NavLink>
@@ -82,9 +73,27 @@ const Navigation = () => {
                                 <button className='link text-maindarkblue' onClick={() => setIsNavOpen(false)}>{t('nav-about')}</button>
                             </NavLink>
                         </li>
-                        <li className='nav-li'>
+                        {/* <li className='nav-li'>
                             <NavLink to={`/#contact`}>
                                 <button className='link text-maindarkblue' onClick={() => setIsNavOpen(false)}>{t('nav-contact')}</button>
+                            </NavLink>
+                        </li> */}
+                        <li className='nav-li'>
+                            <NavLink to={`/prices`} 
+                                className={({ isActive }) =>
+                                    isActive ? 'text-maingold link' : 'text-maindarkblue link'
+                                }
+                                onClick={() => setIsNavOpen(false)}>
+                            {t('nav-prices')}
+                            </NavLink>
+                        </li>
+                        <li className='nav-li'>
+                            <NavLink to={`/contact`} 
+                                className={({ isActive }) =>
+                                    isActive ? 'text-maingold link' : 'text-maindarkblue link'
+                                }
+                                onClick={() => setIsNavOpen(false)}>
+                            {t('nav-contact')}
                             </NavLink>
                         </li>
                     </ul>
@@ -114,11 +123,11 @@ const Navigation = () => {
                 </div>
                 <div className="half">		
                     <ul className="right-navlist">
-                        <li className='nav-li'>
+                        {/* <li className='nav-li'>
                             <NavLink to={`/#contact`}>
                                 <button className='link text-maindarkblue max-md:hidden'>{t('nav-contact')}</button>
                             </NavLink>
-                        </li>
+                        </li> */}
                         <li className='nav-li'>
                             <NavLink to={`/prices`} 
                                 className={({ isActive }) =>
@@ -126,6 +135,15 @@ const Navigation = () => {
                                 }
                                 >
                             {t('nav-prices')}
+                            </NavLink>
+                        </li>
+                        <li className='nav-li'>
+                            <NavLink to={`/contact`} 
+                                className={({ isActive }) =>
+                                    isActive ? activeClassName : 'text-maindarkblue link max-md:hidden'
+                                }
+                                >
+                            {t('nav-contact')}
                             </NavLink>
                         </li>
                     </ul>
