@@ -22,6 +22,7 @@ const Contact = () => {
             Swal.fire({
               icon: 'success',
               title: 'Fyrirspurn send',
+              text: 'Við verðum í bandi um leið og við getum!',
               confirmButtonColor: '#D1B02C'
             })
           }, (error) => {
