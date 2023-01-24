@@ -1,7 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import tailoring from '../../resources/tailoring.jpeg';
-import materials from '../../resources/materials.png';
+import sersaumur from '../../resources/images/sersaumur.jpg'
 
 const TailoringInfo = () => {
 
@@ -25,9 +24,8 @@ const TailoringInfo = () => {
                     {t('tailor-info-text-6')}
                 </p>
             </div>
-            <div className="flex flex-col justify-center items-center md:w-1/2 pt-8 md:pt-0">
-                <img className="w-full h-auto object-cover md:max-w-[35rem] max-w-[24rem] mb-5" src={tailoring} alt="Tailoring"/>
-                <img className="w-full h-auto object-cover md:max-w-[35rem] max-w-[24rem]" src={materials} alt="Materials"/>
+            <div className="flex flex-col items-center md:w-1/2 pt-8 md:pt-0">
+                <img className="w-full h-auto object-cover md:max-w-[30rem] max-w-[24rem]" src={sersaumur} alt="Materials"/>
             </div>
         </div>
     );

@@ -2,10 +2,10 @@
     "nav-tailor": "Sérsaumur",
     "nav-about": "Um okkur",
     "nav-contact": "Hafðu samband",
-    "nav-prices": "Verð & virði",
+    "nav-prices": "Verðskrá",
     "language": "EN",
 
-    "header-main": "Láttu fara vel um þig hjá okkur, alvöru jakkaföt bla bla bla",
+    "header-main": "Bókaðu tíma í mælingar og sérsaum núna",
     "order-button": "Bóka tíma",
 
     "tailor-info-title": "Sérsaumur - hvernig virkar ferlið?",
@@ -18,10 +18,10 @@
 
     "about-title": "Um okkur",
     "about-text": "Jökull og Co. er félag sem sérhæfir sig í sérsaum á herramenn á eðal prís. Við stoltum okkur á heiðarleika og fróðleik á siðum og sniðum í heimi herramannsins. Jökull & Co. hefur ekki (eins og er) neinar höfuðstöðvar, heldur mætum við í heimahús og í fyrirtæki og þjónum viðskiptavinum þannig með því að færa þjónustuna til þeirra, svo viðskiptavinurinn greiði aðeins fyrir vöruna en ekki þakið yfir henni.",
-    "look-at-prices-button": "Skoða verð",
+    "look-at-prices-button": "Skoða verðin",
 
     "contact-title": "Hafðu samband",
-    "contact-text": "Heyrðu í okkur með því að nýta þetta form til að bóka tíma eða senda fyrirspurnir um ferlið, efni eða það sem liggur þér óljóst.",
+    "contact-text": "Heyrðu í okkur með því að nýta þetta form til að bóka tíma eða senda fyrirspurnir um ferlið, efni eða það sem liggur þér óljóst. Einnig getur þú hringt í síma 855-3344 eða sent okkur póst á jokull@jokullogco.is",
     "contact-name": "Nafn*",
     "contact-email": "Netfang*",
     "contact-phone": "Símanúmer",
@@ -33,7 +33,7 @@
     "contact-message": "Skilaboð*",
     "contact-submit": "Senda",
 
-    "prices-title": "Verð & virði",
+    "prices-title": "Verðskrá",
     "prices-suits": "Jakkaföt frá",
     "prices-shirts": "Skyrtur frá",
     "prices-angora": "Sérsaumaður Angora frakki",

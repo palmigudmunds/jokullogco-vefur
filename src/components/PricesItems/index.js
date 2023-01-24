@@ -7,7 +7,7 @@ const PricesItems = () => {
     const { t } = useTranslation();
     
     return (
-        <div className='flex flex-col justify-center items-center'>
+        <div className='flex flex-col justify-center items-center -mt-5 md:-mt-10'>
             <div className="w-full md:w-3/6 mb-96">
                 <div className='flex flex-row items-start w-full h-20 md:h-32 mb-9 lg:mb-10'>
                     <div className="flex flex-col justify-start w-full">

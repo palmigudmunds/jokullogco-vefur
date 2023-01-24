@@ -32,7 +32,7 @@ p {
 }
 
 #opening-header {
-  /* background: linear-gradient(180deg,rgba(34,34,34,.6),hsla(0,0%,100%,.15),hsla(0,0%,100%,.05)),url(https://media.gq-magazine.co.uk/photos/61fd48f29e6a5729a6108d71/3:2/w_1620,h_1080,c_limit/03022022_3_HP.jpeg) no-repeat 50%; */
+  background: linear-gradient(180deg,rgba(34,34,34,.6),hsla(0,0%,100%,.15),hsla(0,0%,100%,.05)),url('resources/images/hero1.jpg') no-repeat 50%;
   background-size: cover;
   height: 75vh;
   margin-left: calc(-50vw + 50%);
@@ -40,11 +40,11 @@ p {
 }
 
 #prices-header {
-  background: linear-gradient(180deg,rgba(34,34,34,.6),hsla(0,0%,100%,.15),hsla(0,0%,100%,.05)),url(https://media.gq-magazine.co.uk/photos/61fd48f29e6a5729a6108d71/3:2/w_1620,h_1080,c_limit/03022022_3_HP.jpeg) no-repeat 50%;
+  background: linear-gradient(180deg,rgba(34,34,34,.6),hsla(0,0%,100%,.15),hsla(0,0%,100%,.05)),url('resources/images/prices2.jpeg') no-repeat 50%;
   background-size: cover;
   margin-left: calc(-50vw + 50%);
   width: 100vw;
-  @apply h-[20vh] lg:h-[50vh];
+  @apply h-[20vh] lg:h-[35vh];
 }
 
 .logo-wrapper {
