@@ -14,11 +14,11 @@ const PricesItems = () => {
                         <ul className='leaders space-y-10'>
                             <li>
                                 <span>{t('prices-suits')}</span>
-                                <span>79.980,-kr.</span>
+                                <span>{t('prices-from')} 79.980,-kr.</span>
                             </li>
                             <li>
                                 <span>{t('prices-shirts')}</span>
-                                <span>14.980,-kr.</span>
+                                <span>{t('prices-from')} 14.980,-kr.</span>
                             </li>
                             <li>
                                 <span>{t('prices-angora')}</span>

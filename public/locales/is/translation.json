@@ -5,7 +5,7 @@
     "nav-prices": "Verðskrá",
     "language": "EN",
 
-    "header-main": "Bókaðu tíma í mælingar og sérsaum núna",
+    "header-main": "Bókaðu tíma í mælingu fyrir sérsaum núna",
     "order-button": "Bóka tíma",
 
     "tailor-info-title": "Sérsaumur - hvernig virkar ferlið?",
@@ -34,9 +34,10 @@
     "contact-submit": "Senda",
 
     "prices-title": "Verðskrá",
-    "prices-suits": "Jakkaföt frá",
-    "prices-shirts": "Skyrtur frá",
+    "prices-suits": "Sérsaumuð jakkaföt",
+    "prices-shirts": "Sérsaumaðar skyrtur",
     "prices-angora": "Sérsaumaður Angora frakki",
+    "prices-from": "Frá",
     "prices-cashmere": "Sérsaumaður Kasmír frakki",
     "prices-afiogeg-cufflinks": "Ermahnappar frá Afi & ég",
     "prices-afiogeg-tieclip": "Bindisklemma frá Afi & ég",

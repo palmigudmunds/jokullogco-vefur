@@ -5,7 +5,7 @@
     "nav-prices": "Prices",
     "language": "IS",
 
-    "header-main": "Book an appointment to get measured for tailoring now",
+    "header-main": "Book an appointment for your custom made clothing",
     "order-button": "Request an appointment",
 
     "tailor-info-title": "What is made to measure?",
@@ -34,10 +34,11 @@
     "contact-submit": "Submit form",
 
     "prices-title": "Prices",
-    "prices-suits": "Suits from",
-    "prices-shirts": "Shirts from",
-    "prices-angora": "Angora overcoat from",
-    "prices-cashmere": "Cashmere overcoat from",
+    "prices-suits": "Tailored suits",
+    "prices-shirts": "Tailored shirts",
+    "prices-from": "From",
+    "prices-angora": "Tailored Angora overcoat",
+    "prices-cashmere": "Tailored Cashmere overcoat",
     "prices-afiogeg-cufflinks": "Icelandic made Cufflinks",
     "prices-afiogeg-tieclip": "Icelandic made tie clip",
 
