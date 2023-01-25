@@ -5,8 +5,8 @@ import { useTranslation } from 'react-i18next';
 import LocaleContext from '../../LocaleContext';
 import i18n from '../../i18n';
 
-import logo from '../../resources/logo.png';
-import {ReactComponent as World} from '../../resources/world.svg';
+import logo from '../../resources/images/logo.png';
+import {ReactComponent as World} from '../../resources/icons/world.svg';
 
 
 const Navigation = () => {
@@ -73,11 +73,6 @@ const Navigation = () => {
                                 <button className='link text-maindarkblue' onClick={() => setIsNavOpen(false)}>{t('nav-about')}</button>
                             </NavLink>
                         </li>
-                        {/* <li className='nav-li'>
-                            <NavLink to={`/#contact`}>
-                                <button className='link text-maindarkblue' onClick={() => setIsNavOpen(false)}>{t('nav-contact')}</button>
-                            </NavLink>
-                        </li> */}
                         <li className='nav-li'>
                             <NavLink to={`/verdskra`} 
                                 className={({ isActive }) =>
@@ -123,11 +118,6 @@ const Navigation = () => {
                 </div>
                 <div className="half">		
                     <ul className="right-navlist">
-                        {/* <li className='nav-li'>
-                            <NavLink to={`/#contact`}>
-                                <button className='link text-maindarkblue max-md:hidden'>{t('nav-contact')}</button>
-                            </NavLink>
-                        </li> */}
                         <li className='nav-li'>
                             <NavLink to={`/verdskra`} 
                                 className={({ isActive }) =>
