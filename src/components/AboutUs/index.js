@@ -10,7 +10,7 @@ const AboutUs = () => {
     let navigate = useNavigate();
     
     return (
-        <div id="about-us" className="flex flex-col-reverse md:flex-row justify-center max-w-none">
+        <div id="um-okkur" className="flex flex-col-reverse md:flex-row justify-center max-w-none">
             <div className="flex flex-col justify-center items-center md:w-1/2 pt-8 md:pt-0">
                 <img className="w-full h-auto object-cover md:max-w-[30rem] max-w-[24rem] mb-5" src={umokkur} alt="About"/>
             </div>
@@ -22,7 +22,7 @@ const AboutUs = () => {
                 <div className="mt-5 md:mt-10 flex items-start">
                     <button
                         className="bg-maingold text-white text-lg md:text-xl py-2 px-10 border border-white hover:bg-white hover:text-maingold hover:border-maingold ease-in-out duration-200"
-                        onClick={()=> navigate('/prices')}>{t('look-at-prices-button')}</button>
+                        onClick={()=> navigate('/verdskra')}>{t('look-at-prices-button')}</button>
                 </div>
             </div>
         </div>

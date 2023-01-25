@@ -37,7 +37,7 @@ const Contact = () => {
     }
     
     return (
-        <div id="contact" className="flex flex-col md:flex-row justify-start max-w-none mt-8 md:mt-48">
+        <div id="hafdu-samband" className="flex flex-col md:flex-row justify-start max-w-none mt-8 md:mt-48">
             <div className="md:w-1/2 flex flex-col items-start md:items-center">
                 <h2 className="text-start md:w-10/12 lg:w-8/12">{t('contact-title')}</h2>
                 <p className="pt-5 italic md:w-10/12 lg:w-8/12">{t('contact-text')}</p>

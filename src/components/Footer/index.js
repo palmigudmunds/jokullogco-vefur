@@ -16,9 +16,6 @@ const Footer = () => {
                     <li>
                         <a href="mailto:jokull@jokullogco.com" className='text-sm hover:text-maingold'>jokull@jokullogco.com</a>
                     </li>
-                    <li>
-                        <a href="tel:+3548553344" className='text-sm hover:text-maingold'>+354 855 3344</a>
-                    </li>
                 </ul>
                 <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
                 <div class="sm:flex sm:items-center sm:justify-between">

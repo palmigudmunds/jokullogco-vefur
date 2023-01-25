@@ -46,8 +46,8 @@ function App() {
           <Navigation />
           <Routes>
             <Route path="/" element={<FrontPage/>} />
-            <Route activeClassName='text-maingold' exact path="/prices" element={<PricesPageView/>}  />
-            <Route activeClassName='text-maingold' exact path="/contact" element={<ContactPageView/>}  />
+            <Route activeClassName='text-maingold' exact path="/verdskra" element={<PricesPageView/>}  />
+            <Route activeClassName='text-maingold' exact path="/hafdu-samband" element={<ContactPageView/>}  />
           </Routes>
           <Footer />
         </div>

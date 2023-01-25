@@ -20,7 +20,7 @@ const Hero = () => {
                     <div className="pt-12">
                         <button
                         className="bg-maingold text-white text-lg md:text-xl py-3 px-10 border border-white hover:bg-white hover:text-maingold hover:border-maingold ease-in-out duration-200"
-                        onClick={()=> navigate('/contact')}>{t('order-button')}</button>
+                        onClick={()=> navigate('/hafdu-samband')}>{t('order-button')}</button>
                     </div>
                 </div>
             </section>
