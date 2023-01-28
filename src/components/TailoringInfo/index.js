@@ -53,7 +53,7 @@ const TailoringInfo = () => {
         <div id="sersaumur" className="flex flex-col md:flex-row justify-center max-w-none">
             <div className="md:w-1/2 flex flex-col items-center">
                 <motion.h2 
-                className="text-start md:text-start md:w-10/12 lg:w-8/12"
+                className="text-start md:text-start md:w-10/12 xl:w-8/12"
                 ref={ref}
                 variants={headerVariants}
                 initial="offscreen"
@@ -62,7 +62,7 @@ const TailoringInfo = () => {
                     {t('tailor-info-title')}
                 </motion.h2>
                 <motion.p
-                className="pt-5 md:w-10/12 lg:w-8/12"
+                className="pt-5 md:w-10/12 xl:w-8/12"
                 ref={ref}
                 variants={paragraphVariants}
                 initial="offscreen"
@@ -83,7 +83,7 @@ const TailoringInfo = () => {
             </div>
             <div className="flex flex-col items-center md:w-1/2 pt-8 md:pt-0">
                 <motion.img 
-                className="w-full h-auto object-cover md:max-w-[30rem] max-w-[24rem]" 
+                className="w-full h-auto object-cover xl:max-w-[30rem] max-w-[24rem]" 
                 src={sersaumur} 
                 alt="Materials"
                 whileHover={{ scale: 1.025 }} 
