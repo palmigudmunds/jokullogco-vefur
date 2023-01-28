@@ -8,7 +8,7 @@ import umokkur from '../../resources/images/umokkur.jpg';
 
 const paragraphVariants = {
     offscreen: {
-      x: 200,
+      x: -200,
       opacity: 0
     },
     onscreen: {
@@ -23,16 +23,16 @@ const paragraphVariants = {
 
 const headerVariants = {
     offscreen: {
-      x: 100,
-      opacity: 0
+        x: -100,
+        opacity: 0
     },
     onscreen: {
-      x: 0,
-      opacity: 1,
-      transition: {
-        type: "spring",
-        duration: 2
-      }
+        x: 0,
+        opacity: 1,
+        transition: {
+            type: "spring",
+            duration: 2
+        }
     }
 };
 
