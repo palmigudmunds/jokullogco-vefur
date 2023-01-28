@@ -152,7 +152,7 @@ ul.leaders {
   padding: 0;
   overflow-x: hidden;
   list-style: none;
-  @apply text-sm md:text-xl text-maindarkblue
+  @apply text-sm md:text-xl text-black
 }
 
 ul.leaders li:after {
