@@ -8,31 +8,31 @@ import umokkur from '../../resources/images/umokkur.jpg';
 
 const paragraphVariants = {
     offscreen: {
-      x: -200,
+      y: 50,
       opacity: 0
     },
     onscreen: {
-      x: 0,
+      y: 0,
       opacity: 1,
       transition: {
-        type: "spring",
-        duration: 2
+        type: "tween",
+        duration: 1
       }
     }
 };
 
 const headerVariants = {
     offscreen: {
-        x: -100,
-        opacity: 0
+      y: 30,
+      opacity: 0
     },
     onscreen: {
-        x: 0,
-        opacity: 1,
-        transition: {
-            type: "spring",
-            duration: 2
-        }
+      y: 0,
+      opacity: 1,
+      transition: {
+        type: "tween",
+        duration: 0.8
+      }
     }
 };
 
@@ -58,8 +58,9 @@ const AboutUs = () => {
                 className="w-full h-auto object-cover xl:max-w-[30rem] max-w-[24rem] mb-5" 
                 src={umokkur} 
                 alt="About"
-                whileHover={{ scale: 1.025 }} 
-                whileTap={{ scale: 0.97 }}/>
+                variants={headerVariants}
+                initial="offscreen"
+                animate={control}/>
             </div>
             <div className="md:w-1/2 flex flex-col items-start md:items-center">
                 <motion.h2 
