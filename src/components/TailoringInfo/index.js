@@ -63,7 +63,6 @@ const TailoringInfo = () => {
                 </motion.h2>
                 <motion.p
                 className="pt-5 md:w-10/12 xl:w-8/12"
-                ref={ref}
                 variants={paragraphVariants}
                 initial="offscreen"
                 animate={control}
@@ -86,7 +85,6 @@ const TailoringInfo = () => {
                 className="w-full h-auto object-cover xl:max-w-[30rem] max-w-[24rem]" 
                 src={sersaumur} 
                 alt="Materials"
-                ref={ref}
                 variants={headerVariants}
                 initial="offscreen"
                 animate={control}/>

@@ -83,7 +83,6 @@ const AboutUs = () => {
                 </motion.p>
                 <motion.div 
                 className="mt-5 md:mt-10 flex items-start"
-                ref={ref}
                 variants={paragraphVariants}
                 initial="offscreen"
                 animate={control}
