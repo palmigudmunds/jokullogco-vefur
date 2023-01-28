@@ -82,7 +82,12 @@ const TailoringInfo = () => {
                 </motion.p>
             </div>
             <div className="flex flex-col items-center md:w-1/2 pt-8 md:pt-0">
-                <img className="w-full h-auto object-cover md:max-w-[30rem] max-w-[24rem]" src={sersaumur} alt="Materials"/>
+                <motion.img 
+                className="w-full h-auto object-cover md:max-w-[30rem] max-w-[24rem]" 
+                src={sersaumur} 
+                alt="Materials"
+                whileHover={{ scale: 1.025 }} 
+                whileTap={{ scale: 0.97 }}/>
             </div>
         </div>
     );

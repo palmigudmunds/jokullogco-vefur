@@ -54,7 +54,12 @@ const AboutUs = () => {
     return (
         <div id="um-okkur" className="flex flex-col-reverse md:flex-row justify-center max-w-none">
             <div className="flex flex-col justify-center items-center md:w-1/2 pt-8 md:pt-0">
-                <img className="w-full h-auto object-cover md:max-w-[30rem] max-w-[24rem] mb-5" src={umokkur} alt="About"/>
+                <motion.img 
+                className="w-full h-auto object-cover md:max-w-[30rem] max-w-[24rem] mb-5" 
+                src={umokkur} 
+                alt="About"
+                whileHover={{ scale: 1.025 }} 
+                whileTap={{ scale: 0.97 }}/>
             </div>
             <div className="md:w-1/2 flex flex-col items-start md:items-center">
                 <motion.h2 
@@ -75,11 +80,17 @@ const AboutUs = () => {
                 >
                     {t('about-text')}
                 </motion.p>
-                <div className="mt-5 md:mt-10 flex items-start">
+                <motion.div 
+                className="mt-5 md:mt-10 flex items-start"
+                ref={ref}
+                variants={paragraphVariants}
+                initial="offscreen"
+                animate={control}
+                >
                     <button
                         className="bg-maingold text-white text-lg md:text-xl py-2 px-10 border border-white hover:bg-white hover:text-maingold hover:border-maingold ease-in-out duration-200"
                         onClick={()=> navigate('/verdskra')}>{t('look-at-prices-button')}</button>
-                </div>
+                </motion.div>
             </div>
         </div>
     );
