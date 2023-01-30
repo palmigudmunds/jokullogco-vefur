@@ -24,10 +24,10 @@ const Navigation = () => {
     const [visible, setVisible] = useState(true)
 
     const handleScroll = () => {
-        console.log('scrolling')
+        // console.log('scrolling')
         const currentScrollPos = window.scrollY
 
-        if(currentScrollPos > prevScrollPos){
+        if(currentScrollPos > prevScrollPos && currentScrollPos > 100){
             setVisible(false)
         }else{
             setVisible(true)
@@ -55,7 +55,7 @@ const Navigation = () => {
     }
 
     return (
-        <nav className={`mx-auto relative inset-x-0 h-20 md:h-28 z-40 w-full bg-white border-b border-maingold transition-all duration-300 sticky ${visible || isNavOpen? 'top-0' : '-top-20'} md:fixed md:top-0`}>
+        <nav className={`mx-auto relative inset-x-0 h-20 md:h-28 z-40 w-full bg-white border-b border-maingold transition-all duration-500 sticky ${visible || isNavOpen? 'top-0' : '-top-20 md:-top-28'} `}>
             <section className="MOBILE-MENU flex md:hidden">
 
                 <div className="absolute left-0 mt-4 ml-6 z-20">

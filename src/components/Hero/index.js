@@ -53,7 +53,7 @@ const Hero = () => {
     
     return (
 
-            <section id='opening-header' className="relative md:mt-28 flex flex-col items-center justify-center text-center text-white py-0 px-3">
+            <section id='opening-header' className="relative flex flex-col items-center justify-center text-center text-white py-0 px-3">
 
                 <div className="video-content space-y-2 flex flex-col justify-start items-center max-w-none md:max-w-screen-xl mx-auto md:max-h-screen space-x-0 px-3">
                     <div className="w-full md:w-1/2">
