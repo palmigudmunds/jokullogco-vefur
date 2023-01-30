@@ -55,7 +55,7 @@ const Navigation = () => {
     }
 
     return (
-        <nav className={`mx-auto relative inset-x-0 h-20 md:h-28 z-40 w-full bg-white border-b border-maingold transition-all duration-300 sticky ${visible || isNavOpen? 'top-0' : '-top-20'} md:fixed md:top-0`}>
+        <nav className={`mx-auto relative inset-x-0 h-20 md:h-28 z-40 w-full bg-white border-b border-maingold transition-all duration-300 sticky ${visible || isNavOpen? 'top-0' : '-top-20 md:h-20'} md:fixed md:top-0`}>
             <section className="MOBILE-MENU flex md:hidden">
 
                 <div className="absolute left-0 mt-4 ml-6 z-20">
@@ -96,9 +96,9 @@ const Navigation = () => {
             </section>
             <div className="">
                 <div className="logo-wrapper">
-                    <div className="logo">
+                    <div className="">
                         <NavLink to={`/`}>
-                            <img className="logo" src={logo} alt="Logo" />
+                            <img className={`logo w-20 transition-all ease-in-out duration-300 ${visible? 'md:w-28' : 'md:w-20'}`} src={logo} alt="Logo" />
                         </NavLink>
                     </div>
                 </div>
@@ -106,7 +106,7 @@ const Navigation = () => {
                     <ul className="left-navlist">
                         <li className='nav-li'>
                             <NavLink to={`/#sersaumur`}>
-                                <button className='link text-maindarkblue max-md:hidden'>{t('nav-tailor')}</button>
+                                <button className={`link text-maindarkblue max-md:hidden ${visible? '' : 'md:mt-4'}` }>{t('nav-tailor')}</button>
                             </NavLink>
                         </li>
                         <li className='nav-li'>
@@ -118,7 +118,7 @@ const Navigation = () => {
                 </div>
                 <div className="half">		
                     <ul className="right-navlist">
-                        <li className='nav-li'>
+                        <li className={`nav-li ${visible? '' : 'md:mt-4'}`}>
                             <NavLink to={`/verdskra`} 
                                 className={({ isActive }) =>
                                     isActive ? activeClassName : 'text-maindarkblue link max-md:hidden'

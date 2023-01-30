@@ -63,7 +63,7 @@ p {
 
 .logo {
 	display: inline-block;
-  @apply w-20 md:w-28 h-auto hover:fill-maingold duration-100 ease-in-out
+  @apply h-auto hover:fill-maingold duration-100 ease-in-out
 }
 
 .logo:hover {
