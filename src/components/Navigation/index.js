@@ -142,7 +142,7 @@ const Navigation = () => {
             <div className='absolute right-0 mt-3 md:mt-0 flex items-center w-16 space-x-1 cursor-pointer text-maindarkblue hover:text-maingold fill-maindarkblue hover:fill-maingold duration-100 ease-in-out' onClick={() => changeLocale()}>
                 <World className='mb-px w-3.5 h-auto'/>
                 <NavLink >
-                    <button className='text-base lg:text-lg'>{t('language')}</button>
+                    <button className='link-lang'>{t('language')}</button>
                 </NavLink>
             </div>
         </nav>
