@@ -10,11 +10,11 @@
 
     "tailor-info-title": "What is made to measure?",
     "tailor-info-text-1": "Made to measure literally means “especially made to fit someone” but our process works like this: ",
-    "tailor-info-text-2": "I. A time and location are decided.",
-    "tailor-info-text-3": "II. The client browses through our vast selection of suit fabrics in every color and pattern, shirts for every occasion and overcoats for every season.",
-    "tailor-info-text-4": "III. Once the fabric is chosen we start designing the clothes and we guide you through the process on what fits each and every person.",
-    "tailor-info-text-5": "IV. When the clothes have been designed and everything is agreed, measurements are taken and hands are shaken.",
-    "tailor-info-text-6": "V. Three to five weeks later the clothes are pressed, shirts dry cleaned and you can pick them up at your convenience either in Reykjavík or Keflavík.",
+    "tailor-info-text-2": "A time and location are decided.",
+    "tailor-info-text-3": "The client browses through our vast selection of suit fabrics in every color and pattern, shirts for every occasion and overcoats for every season.",
+    "tailor-info-text-4": "Once the fabric is chosen we start designing the clothes and we guide you through the process on what fits each and every person.",
+    "tailor-info-text-5": "When the clothes have been designed and everything is agreed, measurements are taken and hands are shaken.",
+    "tailor-info-text-6": "Three to five weeks later the clothes are pressed, shirts dry cleaned and you can pick them up at your convenience either in Reykjavík or Keflavík.",
 
     "about-title": "About us",
     "about-text": "Jökull & Co. is a company that specializes in made to measure tailoring at an acceptable price. We pride ourselves in honesty and knowledge about cuts and customs in the world of the gentleman. Currently Jökull & Co. does not have headquarters, instead, we come to you whether that be at home or somewhere else suitable. This way the client pays only for the product and not the roof over it.",
@@ -22,7 +22,7 @@
 
     "contact-title": "Drop us a line",
     "contact-text": "Contact us by using this form to book appointments or for inquiries about our process, fabrics or anything that might be unclear. You can also send us an email at jokull@jokullogco.com or message us on Facebook or Instagram @jokullogco.",
-    "contact-group-title": "Group bookings",
+    "contact-group-title": "Group appointments",
     "contact-group-text": "If you are a group of 4 or more people and would like to book a group appointment, you can do so! Suitable for employers, weddings, graduations or just a group of friends.",
     "contact-name": "Name*",
     "contact-email": "Email*",
@@ -32,6 +32,7 @@
     "contact-help-option2": "Appointments",
     "contact-help-option3": "Fabrics",
     "contact-help-option4": "Other",
+    "contact-help-option5": "Group appointments",
     "contact-message": "Message*",
     "contact-submit": "Submit form",
 

@@ -41,7 +41,7 @@ const Contact = () => {
             <div className="md:w-1/2 flex flex-col items-start md:items-center">
                 <h2 className="text-start md:w-10/12 lg:w-8/12">{t('contact-title')}</h2>
                 <p className="pt-5 italic md:w-10/12 lg:w-8/12">{t('contact-text')}</p>
-                <h2 className="text-start md:w-10/12 lg:w-8/12 mt-10">{t('contact-group-title')}</h2>
+                <h3 className="text-start md:w-10/12 lg:w-8/12 mt-10">{t('contact-group-title')}</h3>
                 <p className="pt-5 italic md:w-10/12 lg:w-8/12">{t('contact-group-text')}</p>
             </div>
             <div className="flex flex-col justify-start items-start md:w-1/2 mt-4 md:pt-0">
@@ -90,6 +90,7 @@ const Contact = () => {
                                 id="form-input-control-help" name="user_help">
                                 <option selected></option>
                                 <option value="Appointment">{t('contact-help-option2')}</option>
+                                <option value="Group booking">{t('contact-help-option5')}</option>
                                 <option value="Accessories">{t('contact-help-option1')}</option>
                                 <option value="Fabrics">{t('contact-help-option3')}</option>
                                 <option value="Other">{t('contact-help-option4')}</option>

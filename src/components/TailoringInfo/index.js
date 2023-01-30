@@ -69,15 +69,15 @@ const TailoringInfo = () => {
                 >
                     {t('tailor-info-text-1')}
                     <br></br><br></br>
-                    {t('tailor-info-text-2')}
+                    <b>I. </b>{t('tailor-info-text-2')}
                     <br></br><br></br>
-                    {t('tailor-info-text-3')}
+                    <b>II. </b>{t('tailor-info-text-3')}
                     <br></br><br></br>
-                    {t('tailor-info-text-4')}
+                    <b>III. </b>{t('tailor-info-text-4')}
                     <br></br><br></br>
-                    {t('tailor-info-text-5')}
+                    <b>IV. </b>{t('tailor-info-text-5')}
                     <br></br><br></br>
-                    {t('tailor-info-text-6')}
+                    <b>V. </b>{t('tailor-info-text-6')}
                 </motion.p>
             </div>
             <div className="flex flex-col items-center md:w-1/2 pt-8 md:pt-0">

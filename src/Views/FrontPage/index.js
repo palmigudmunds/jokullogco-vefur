@@ -5,6 +5,7 @@ import { Suspense } from 'react';
 import Hero from '../../components/Hero';
 import TailoringInfo from '../../components/TailoringInfo';
 import AboutUs from '../../components/AboutUs';
+import GroupBookings from '../../components/GroupBookings';
 
 const FrontPageView = () => {
 
@@ -15,6 +16,7 @@ const FrontPageView = () => {
                     <Hero/>
 					<Container>
 						<TailoringInfo/>
+						<GroupBookings/>
 						<AboutUs/>
 					</Container>
                 </div>
