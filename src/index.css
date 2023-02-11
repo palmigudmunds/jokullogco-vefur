@@ -49,7 +49,7 @@ p {
 }
 
 #prices-header {
-  background: linear-gradient(180deg,rgba(34,34,34,.6),hsla(0,0%,100%,.15),hsla(0,0%,100%,.05)),url('resources/images/prices2.jpeg') no-repeat 50%;
+  background: linear-gradient(180deg,rgba(34,34,34,.6),hsla(0,0%,100%,.15),hsla(0,0%,100%,.05)),url('resources/images/prices.jpeg') no-repeat 50%;
   background-size: cover;
   margin-left: calc(-50vw + 50%);
   width: 100vw;
