@@ -41,7 +41,6 @@ p {
 }
 
 #opening-header {
-  background: linear-gradient(180deg,rgba(34,34,34,.6),hsla(0,0%,100%,.15),hsla(0,0%,100%,.05)),url('resources/images/hero.jpeg') no-repeat 50%;
   background-size: cover;
   height: 75vh;
   margin-left: calc(-50vw + 50%);
