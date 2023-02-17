@@ -13,6 +13,9 @@ const Footer = () => {
                     <img className="h-24" src={logo} alt="Logo" />   
                 </a>
                 <ul className="flex flex-col justify-center items-center space-y-1 list-none list-inside text-white font-light text-sm">
+                    <li >
+                        <a href="https://goo.gl/maps/neM2qegvaRXAcGQx9"className='text-sm hover:text-maingold'>Suðurlandsbraut 30, Reykjavík</a>
+                    </li>
                     <li>
                         <a href="mailto:jokull@jokullogco.com" className='text-sm hover:text-maingold'>jokull@jokullogco.com</a>
                     </li>
