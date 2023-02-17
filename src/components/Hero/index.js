@@ -4,6 +4,11 @@ import { useTranslation } from 'react-i18next';
 import { useEffect } from 'react';
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import HeroSlider, { Overlay, Slide, Nav } from "hero-slider";
+
+import hero1 from '../../resources/images/hero.jpeg';
+import hero2 from '../../resources/images/hero2.jpg';
+import hero3 from '../../resources/images/hero3.jpg';
 
 const headerVariants = {
     offscreen: {
@@ -52,34 +57,74 @@ const Hero = () => {
     }, [control, inView]);
     
     return (
-
-            <section id='opening-header' className="relative flex flex-col items-center justify-center text-center text-white py-0 px-3">
-
-                <div className="video-content space-y-2 flex flex-col justify-start items-center max-w-none md:max-w-screen-xl mx-auto md:max-h-screen space-x-0 px-3">
-                    <div className="w-full md:w-1/2">
-                        <motion.h1 
-                        className="text-center"
+        <HeroSlider
+            height={"75vh"}
+            autoplay
+            controller={{
+            initialSlide: 1,
+            slidingDuration: 500,
+            slidingDelay: 100,
+            onSliding: (nextSlide) =>
+                console.debug("onSliding(nextSlide): ", nextSlide),
+            onBeforeSliding: (previousSlide, nextSlide) =>
+                console.debug(
+                "onBeforeSliding(previousSlide, nextSlide): ",
+                previousSlide,
+                nextSlide
+                ),
+            onAfterSliding: (nextSlide) =>
+                console.debug("onAfterSliding(nextSlide): ", nextSlide)
+            }}
+        >
+            <Overlay>
+                <section id="opening-header" className="relative flex flex-col items-center justify-center text-center text-white py-0 px-3">
+                    <div className="video-content space-y-2 flex flex-col justify-start items-center max-w-none md:max-w-screen-xl mx-auto md:max-h-screen space-x-0 px-3">
+                        <div className="w-full md:w-1/2">
+                            <motion.h1 
+                            className="text-center"
+                            ref={ref}
+                            variants={headerVariants}
+                            initial="offscreen"
+                            animate={control}
+                            >
+                                {t('header-main')}
+                            </motion.h1>
+                        </div>
+                        <motion.div 
+                        className="pt-12"
                         ref={ref}
-                        variants={headerVariants}
+                        variants={buttonVariants}
                         initial="offscreen"
-                        animate={control}
-                        >
-                            {t('header-main')}
-                        </motion.h1>
+                        animate={control}>
+                            <button
+                            className="bg-maingold text-white text-lg md:text-xl py-3 px-10 border border-white hover:bg-white hover:text-maingold hover:border-maingold ease-in-out duration-200"
+                            onClick={()=> navigate('/hafdu-samband')}>{t('order-button')}</button>
+                        </motion.div>
                     </div>
-                    <motion.div 
-                    className="pt-12"
-                    ref={ref}
-                    variants={buttonVariants}
-                    initial="offscreen"
-                    animate={control}>
-                        <button
-                        className="bg-maingold text-white text-lg md:text-xl py-3 px-10 border border-white hover:bg-white hover:text-maingold hover:border-maingold ease-in-out duration-200"
-                        onClick={()=> navigate('/hafdu-samband')}>{t('order-button')}</button>
-                    </motion.div>
-                </div>
-            </section>
-    );
+                </section>
+            </Overlay>
+    
+            <Slide
+                background={{
+                    backgroundImageSrc: hero2
+                }}
+            />
+        
+            <Slide
+                background={{
+                    backgroundImageSrc: hero1
+                }}
+            />
+        
+            <Slide
+                background={{
+                    backgroundImageSrc: hero3
+                }}
+            />
+    
+            <Nav />
+        </HeroSlider>
+      );
 };
 
 export default Hero;
