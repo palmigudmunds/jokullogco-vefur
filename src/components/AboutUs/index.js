@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import umokkur from '../../resources/images/umokkur.jpg';
+import umokkur from '../../resources/images/um-okkur.jpg';
 
 const paragraphVariants = {
     offscreen: {
