@@ -82,14 +82,14 @@ const GroupBookings = () => {
                     {t('contact-group-text')}
                 </motion.p>
                 <motion.div 
-                className="mt-5 md:mt-10 flex items-start"
+                className="pt-7 flex flex items-start md:w-10/12 xl:w-8/12"
                 variants={paragraphVariants}
                 initial="offscreen"
                 animate={control}
                 >
                     <button
                         className="bg-maingold text-white text-lg md:text-xl py-2 px-10 border border-white hover:bg-white hover:text-maingold hover:border-maingold ease-in-out duration-200"
-                        onClick={()=> navigate('/hafdu-samband')}>{t('order-button')}</button>
+                        onClick={()=> navigate('/hafdu-samband')}>{t('contact-button')}</button>
                 </motion.div>
             </div>
         </div>

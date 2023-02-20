@@ -1,5 +1,4 @@
 import React from "react";
-import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useEffect } from 'react';
 import { motion, useAnimation } from "framer-motion";
@@ -42,8 +41,6 @@ const buttonVariants = {
 
 
 const Hero = () => {
-
-    let navigate = useNavigate();
 
     const { t } = useTranslation();
 
@@ -96,9 +93,9 @@ const Hero = () => {
                         variants={buttonVariants}
                         initial="offscreen"
                         animate={control}>
-                            <button
+                            <a
                             className="bg-maingold text-white text-lg md:text-xl py-3 px-10 border border-white hover:bg-white hover:text-maingold hover:border-maingold ease-in-out duration-200"
-                            onClick={()=> navigate('/hafdu-samband')}>{t('order-button')}</button>
+                            href="https://noona.is/jokullco/book">{t('order-button')}</a>
                         </motion.div>
                     </div>
                 </section>

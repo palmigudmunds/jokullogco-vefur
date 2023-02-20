@@ -45,7 +45,7 @@ const Contact = () => {
                 <p className="pt-5 italic md:w-10/12 lg:w-8/12">{t('contact-group-text')}</p>
             </div>
             <div className="flex flex-col justify-start items-start md:w-1/2 mt-4 md:pt-0">
-                <form className='w-full' onSubmit={onSubmit}>
+                <form className='w-full md:w-10/12' onSubmit={onSubmit}>
                     <div className="md:mb-6 flex flex-col items-center justify-between space-y-4">
                         <div className='w-full'>
                             <label className="label md:mb-2" for="name">

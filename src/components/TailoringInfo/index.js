@@ -1,5 +1,6 @@
 import React from 'react';
 import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -40,6 +41,8 @@ const TailoringInfo = () => {
 
     const { t } = useTranslation();
 
+    let navigate = useNavigate();
+
     const control = useAnimation();
     const [ref, inView] = useInView();
 
@@ -51,7 +54,7 @@ const TailoringInfo = () => {
     
     return (
         <div id="sersaumur" className="flex flex-col md:flex-row justify-center max-w-none">
-            <div className="md:w-1/2 flex flex-col items-center">
+            <div className="md:w-1/2 flex flex-col items-start md:items-center">
                 <motion.h2 
                 className="text-start md:text-start md:w-10/12 xl:w-8/12"
                 ref={ref}
@@ -79,6 +82,16 @@ const TailoringInfo = () => {
                     <br></br><br></br>
                     <b>V. </b>{t('tailor-info-text-6')}
                 </motion.p>
+                <motion.div 
+                className="pt-7 flex flex items-start md:w-10/12 xl:w-8/12"
+                variants={paragraphVariants}
+                initial="offscreen"
+                animate={control}
+                >
+                    <button
+                        className="bg-maingold text-white text-lg md:text-xl py-2 px-10 border border-white hover:bg-white hover:text-maingold hover:border-maingold ease-in-out duration-200"
+                        onClick={()=> navigate('/verdskra')}>{t('look-at-prices-button')}</button>
+                </motion.div>
             </div>
             <div className="flex flex-col items-center md:w-1/2 pt-8 md:pt-0">
                 <motion.img 

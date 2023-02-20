@@ -52,7 +52,7 @@ p {
   background-size: cover;
   margin-left: calc(-50vw + 50%);
   width: 100vw;
-  @apply h-[20vh] lg:h-[35vh];
+  @apply h-[35vh] lg:h-[45vh];
 }
 
 .logo-wrapper {
