@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 import LocaleContext from '../../LocaleContext';
 import i18n from '../../i18n';
 
-import logo from '../../resources/images/logo.png';
+import logo from '../../resources/logos/logo.png';
 import {ReactComponent as World} from '../../resources/icons/world.svg';
 
 

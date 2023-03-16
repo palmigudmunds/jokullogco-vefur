@@ -4,7 +4,8 @@ import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import custom from '../../resources/images/custom-suit.jpeg';
+
+const custom = 'https://res.cloudinary.com/dq2uenf18/image/upload/v1678990646/jokullogco/sections/custom-suit_vbeocl.jpg';
 
 const paragraphVariants = {
     offscreen: {

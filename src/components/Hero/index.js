@@ -5,9 +5,9 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import HeroSlider, { Overlay, Slide, Nav } from "hero-slider";
 
-import hero1 from '../../resources/images/hero.jpeg';
-import hero2 from '../../resources/images/hero2.jpg';
-import hero3 from '../../resources/images/hero3.jpg';
+const hero1 = 'https://res.cloudinary.com/dq2uenf18/image/upload/v1678990625/jokullogco/hero/hero_ncn5ch.jpg';
+const hero2 = 'https://res.cloudinary.com/dq2uenf18/image/upload/v1678990631/jokullogco/hero/hero2_niyzqs.jpg';
+const hero3 = 'https://res.cloudinary.com/dq2uenf18/image/upload/v1678990632/jokullogco/hero/hero3_w1beak.jpg';
 
 const headerVariants = {
     offscreen: {

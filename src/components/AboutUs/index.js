@@ -3,7 +3,8 @@ import { useTranslation } from 'react-i18next';
 import { useEffect } from 'react';
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import umokkur from '../../resources/images/um-okkur.jpg';
+
+const umokkur = 'https://res.cloudinary.com/dq2uenf18/image/upload/v1678990654/jokullogco/sections/um-okkur_x2xgfr.jpg';
 
 const paragraphVariants = {
     offscreen: {
