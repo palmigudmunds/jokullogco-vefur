@@ -48,7 +48,7 @@ p {
 }
 
 #prices-header {
-  background: linear-gradient(180deg,rgba(34,34,34,.6),hsla(0,0%,100%,.15),hsla(0,0%,100%,.05)),url('resources/images/prices.jpeg') no-repeat 50%;
+  background: url('https://res.cloudinary.com/dq2uenf18/image/upload/v1678990653/jokullogco/sections/prices_d1pswy.jpg') no-repeat 50%;
   background-size: cover;
   margin-left: calc(-50vw + 50%);
   width: 100vw;

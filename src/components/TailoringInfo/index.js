@@ -4,7 +4,8 @@ import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import sersaumur from '../../resources/images/sersaumur.jpg';
+
+const sersaumur = 'https://res.cloudinary.com/dq2uenf18/image/upload/v1678990654/jokullogco/sections/sersaumur_rk5nbt.jpg';
 
 
 const paragraphVariants = {
