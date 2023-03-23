@@ -13,20 +13,20 @@ const PricesItems = () => {
                     <div className="flex flex-col justify-start w-full">
                         <ul className='leaders space-y-10'>
                             <li>
-                                <span>{t('prices-suits')}</span>
-                                <span>{t('prices-from')} 69.980,-</span>
+                                <span>{t('prices-suits-double')}</span>
+                                <span>{t('prices-from')} 79.980,-</span>
+                            </li>
+                            <li>
+                                <span>{t('prices-suits-triple')}</span>
+                                <span>{t('prices-from')} 94.980,-</span>
                             </li>
                             <li>
                                 <span>{t('prices-shirts')}</span>
                                 <span>{t('prices-from')} 14.980,-</span>
                             </li>
                             <li>
-                                <span>{t('prices-angora')}</span>
-                                <span>99.980,-</span>
-                            </li>
-                            <li>
-                                <span>{t('prices-cashmere')}</span>
-                                <span>129.980,-</span>
+                                <span>{t('prices-knitted-tie')}</span>
+                                <span><span>{t('prices-from')}</span> 15.490,-</span>
                             </li>
                             <li>
                                 <span>{t('prices-afiogeg-cufflinks')}</span>
