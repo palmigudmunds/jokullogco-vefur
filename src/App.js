@@ -9,6 +9,7 @@ import FrontPage from "./Views/FrontPage";
 import Footer from "./components/Footer";
 import PricesPageView from "./Views/PricesPage";
 import ContactPageView from "./Views/ContactPage";
+import BookingPageView from "./Views/BookingPage";
 
 function App() {
 
@@ -48,6 +49,7 @@ function App() {
             <Route path="/" element={<FrontPage/>} />
             <Route activeClassName='text-maingold' exact path="/verdskra" element={<PricesPageView/>}  />
             <Route activeClassName='text-maingold' exact path="/hafdu-samband" element={<ContactPageView/>}  />
+            <Route activeClassName='text-maingold' exact path="/bokanir" element={<BookingPageView/>}  />
           </Routes>
           <Footer />
         </div>
