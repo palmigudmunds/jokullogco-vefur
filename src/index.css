@@ -12,7 +12,7 @@ body {
 
 h1 {
     font-family: 'Gelasio', serif;
-    @apply lg:text-6xl text-4xl text-white font-semibold
+    @apply lg:text-6xl text-4xl text-white font-medium
 }
 
 h2 {
@@ -27,7 +27,7 @@ h3 {
 
 p {
   font-family: 'Lora', serif;
-  @apply text-base font-normal md:font-normal text-black leading-relaxed
+  @apply text-base font-light text-black leading-relaxed
 }
 
 .link {
@@ -52,7 +52,15 @@ p {
   background-size: cover;
   margin-left: calc(-50vw + 50%);
   width: 100vw;
-  @apply h-[35vh] lg:h-[45vh];
+  @apply h-[30vh] lg:h-[45vh];
+}
+
+#materials-header {
+  background: url('https://res.cloudinary.com/dq2uenf18/image/upload/v1682068472/jokullogco/efni/jakkafot/5618-min_bchw8f.jpg') no-repeat 50%;
+  background-size: cover;
+  margin-left: calc(-50vw + 50%);
+  width: 100vw;
+  @apply h-[30vh] lg:h-[45vh];
 }
 
 .logo-wrapper {
