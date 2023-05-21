@@ -42,6 +42,11 @@ p {
   @apply text-sm lg:text-base uppercase;
 }
 
+.link-insta {
+  font-family: 'Gelasio', serif;
+  @apply text-sm lg:text-base;
+}
+
 #opening-header {
   background-size: cover;
   height: 85vh;
