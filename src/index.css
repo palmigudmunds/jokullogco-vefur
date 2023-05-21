@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@100;200;300;400;500;600;700;800&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 
 @tailwind base;
 @tailwind components;
@@ -7,26 +9,26 @@
 
 body { 
     background: #ffffff;
-    font-family: 'Lora', serif;
+    font-family: "Be Vietnam Pro", sans-serif;
 }
 
 h1 {
     font-family: 'Gelasio', serif;
-    @apply lg:text-6xl text-4xl text-white font-medium
+    @apply lg:text-6xl md:text-5xl text-4xl text-white font-medium
 }
 
 h2 {
     font-family: 'Gelasio', serif;
-    @apply text-2xl md:text-3xl font-semibold text-maindarkblue uppercase
+    @apply text-3xl md:text-4xl font-semibold text-black uppercase
 }
 
 h3 {
   font-family: 'Gelasio', serif;
-  @apply text-xl md:text-2xl font-medium text-maindarkblue uppercase
+  @apply text-xl md:text-2xl font-medium text-black uppercase
 }
 
 p {
-  font-family: 'Lora', serif;
+  font-family: "Be Vietnam Pro", sans-serif;
   @apply text-base font-light text-black leading-relaxed
 }
 
@@ -42,22 +44,24 @@ p {
 
 #opening-header {
   background-size: cover;
-  height: 75vh;
+  height: 85vh;
   margin-left: calc(-50vw + 50%);
   width: 100vw;
 }
 
 #prices-header {
-  background: url('https://res.cloudinary.com/dq2uenf18/image/upload/v1678990653/jokullogco/sections/prices_d1pswy.jpg') no-repeat 50%;
+  background: url('https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1684671236/jokullogco/sections/cool-dudes_trlpuv.jpg') no-repeat 50%;
   background-size: cover;
+  background-color: rgb(209 213 219);
   margin-left: calc(-50vw + 50%);
   width: 100vw;
   @apply h-[30vh] lg:h-[45vh];
 }
 
 #materials-header {
-  background: url('https://res.cloudinary.com/dq2uenf18/image/upload/v1682068472/jokullogco/efni/jakkafot/5618-min_bchw8f.jpg') no-repeat 50%;
+  background: url('https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1682068472/jokullogco/efni/jakkafot/5618-min_bchw8f.jpg') no-repeat 50%;
   background-size: cover;
+  background-color: rgb(209 213 219);
   margin-left: calc(-50vw + 50%);
   width: 100vw;
   @apply h-[30vh] lg:h-[45vh];
@@ -196,5 +200,16 @@ ul.leaders span + span {
 }
 
 select {
-  -webkit-appearance: listbox !important
+  -webkit-appearance: listbox !important;
+  border-radius: 0;
+}
+
+textarea,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="button"],
+input[type="submit"] {
+     -webkit-appearance: none;
+     border-radius: 0;
 }
