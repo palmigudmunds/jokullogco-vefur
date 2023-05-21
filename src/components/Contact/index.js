@@ -52,7 +52,7 @@ const Contact = () => {
                                 {t('contact-name')}
                             </label>
                             <input 
-                                className="appearance-none bg-gray-50 border border-gray-300 text-gray-900 rounded w-full mb-3 md:mb-0 py-2 px-3 leading-tight focus:outline-none focus:shadow-outline focus:ring-blue-500 focus:border-maingold" 
+                                className="appearance-none bg-gray-50 border border-gray-300 text-gray-900 w-full mb-3 md:mb-0 py-2 px-3 leading-tight focus:outline-none focus:shadow-outline focus:ring-blue-500 focus:border-maingold" 
                                 id="form-input-control-last-name" 
                                 name='user_name'
                                 type="text"
@@ -64,7 +64,7 @@ const Contact = () => {
                                 {t('contact-email')}
                             </label>
                             <input 
-                                className="appearance-none border bg-gray-50 border border-gray-300 text-gray-900  rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline focus:ring-blue-500 focus:border-maingold" 
+                                className="appearance-none border bg-gray-50 border border-gray-300 text-gray-900 w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline focus:ring-blue-500 focus:border-maingold" 
                                 id="form-input-control-email" 
                                 name='user_email'
                                 type="email"
@@ -76,7 +76,7 @@ const Contact = () => {
                                 {t('contact-phone')}
                             </label>
                             <input 
-                                className="appearance-none border bg-gray-50 border border-gray-300 text-gray-900  rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline focus:ring-blue-500 focus:border-maingold" 
+                                className="appearance-none border bg-gray-50 border border-gray-300 text-gray-900 w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline focus:ring-blue-500 focus:border-maingold" 
                                 id="form-input-control-phone" 
                                 name='user_phone'
                                 type="tel"
@@ -86,7 +86,7 @@ const Contact = () => {
                             <label className="label md:mb-2" for="form-input-control-help">
                                 {t('contact-help')} 
                             </label>
-                            <select className="appearance-none border bg-gray-50 border border-gray-300 text-gray-900  rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline focus:ring-blue-500 focus:border-maingold"
+                            <select className="appearance-none border bg-gray-50 border border-gray-300 text-gray-900 w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline focus:ring-blue-500 focus:border-maingold"
                                 id="form-input-control-help" name="user_help">
                                 <option selected></option>
                                 <option value="Appointment">{t('contact-help-option2')}</option>
@@ -101,7 +101,7 @@ const Contact = () => {
                                 {t('contact-message')}
                             </label>
                             <textarea 
-                                className="block appearance-none h-full border bg-gray-50 border border-gray-300 text-gray-900  rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline focus:ring-blue-500 focus:border-maingold" 
+                                className="block appearance-none h-full border bg-gray-50 border border-gray-300 text-gray-900 w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline focus:ring-blue-500 focus:border-maingold" 
                                 id='form-textarea-control-opinion'
                                 name='user_message'
                                 type="text"

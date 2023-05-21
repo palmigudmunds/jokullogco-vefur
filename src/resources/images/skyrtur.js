@@ -1,41 +1,41 @@
 const skyrturefni1 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1682068950/jokullogco/efni/skyrtur/IMG_9478-min_nbllm4.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1682068950/jokullogco/efni/skyrtur/IMG_9478-min_nbllm4.jpg";
 const skyrturefni2 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1682068949/jokullogco/efni/skyrtur/IMG_9480-min_jzyakr.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1682068949/jokullogco/efni/skyrtur/IMG_9480-min_jzyakr.jpg";
 const skyrturefni3 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1682068949/jokullogco/efni/skyrtur/IMG_9479-min_qdf1sg.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1682068949/jokullogco/efni/skyrtur/IMG_9479-min_qdf1sg.jpg";
 const skyrturefni4 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1682068949/jokullogco/efni/skyrtur/IMG_9482-min_xavm5n.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1682068949/jokullogco/efni/skyrtur/IMG_9482-min_xavm5n.jpg";
 const skyrturefni5 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1682068949/jokullogco/efni/skyrtur/IMG_9481-min_khanas.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1682068949/jokullogco/efni/skyrtur/IMG_9481-min_khanas.jpg";
 const skyrturefni6 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1682068948/jokullogco/efni/skyrtur/IMG_9483-min_z3lzbx.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1682068948/jokullogco/efni/skyrtur/IMG_9483-min_z3lzbx.jpg";
 const skyrturefni7 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1682068948/jokullogco/efni/skyrtur/IMG_9484-min_p6gfeu.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1682068948/jokullogco/efni/skyrtur/IMG_9484-min_p6gfeu.jpg";
 const skyrturefni8 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1682068948/jokullogco/efni/skyrtur/IMG_9485-min_eygijh.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1682068948/jokullogco/efni/skyrtur/IMG_9485-min_eygijh.jpg";
 const skyrturefni9 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1682068948/jokullogco/efni/skyrtur/IMG_9486-min_vdsf51.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1682068948/jokullogco/efni/skyrtur/IMG_9486-min_vdsf51.jpg";
 const skyrturefni10 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1682068948/jokullogco/efni/skyrtur/IMG_9487-min_q82iek.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1682068948/jokullogco/efni/skyrtur/IMG_9487-min_q82iek.jpg";
 const skyrturefni11 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1682068947/jokullogco/efni/skyrtur/IMG_9489-min_lnhdyj.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1682068947/jokullogco/efni/skyrtur/IMG_9489-min_lnhdyj.jpg";
 const skyrturefni12 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1682068947/jokullogco/efni/skyrtur/IMG_9488-min_palrbf.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1682068947/jokullogco/efni/skyrtur/IMG_9488-min_palrbf.jpg";
 const skyrturefni13 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1682068947/jokullogco/efni/skyrtur/IMG_9490-min_jnnjvk.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1682068947/jokullogco/efni/skyrtur/IMG_9490-min_jnnjvk.jpg";
 const skyrturefni14 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1682068946/jokullogco/efni/skyrtur/IMG_9491-min_vtorcf.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1682068946/jokullogco/efni/skyrtur/IMG_9491-min_vtorcf.jpg";
 const skyrturefni15 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1682068946/jokullogco/efni/skyrtur/IMG_9492-min_oejfqz.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1682068946/jokullogco/efni/skyrtur/IMG_9492-min_oejfqz.jpg";
 const skyrturefni16 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1682068946/jokullogco/efni/skyrtur/IMG_9493-min_mwmjrw.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1682068946/jokullogco/efni/skyrtur/IMG_9493-min_mwmjrw.jpg";
 const skyrturefni17 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1682068946/jokullogco/efni/skyrtur/IMG_9494-min_ogw80v.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1682068946/jokullogco/efni/skyrtur/IMG_9494-min_ogw80v.jpg";
 const skyrturefni18 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1682068946/jokullogco/efni/skyrtur/IMG_9496-min_qsscb7.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1682068946/jokullogco/efni/skyrtur/IMG_9496-min_qsscb7.jpg";
 const skyrturefni19 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1682068946/jokullogco/efni/skyrtur/IMG_9495-min_wn56cq.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1682068946/jokullogco/efni/skyrtur/IMG_9495-min_wn56cq.jpg";
 
 export const skyrturefniImages = [
   {
