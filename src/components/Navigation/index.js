@@ -71,16 +71,6 @@ const Navigation = () => {
         <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
           <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-left justify-start min-h-screen ml-5 mt-40 -space-y-4">
             <li className="nav-li">
-              <NavLink to={`/#um-okkur`}>
-                <button
-                  className="link text-maindarkblue"
-                  onClick={() => setIsNavOpen(false)}
-                >
-                  {t("nav-about")}
-                </button>
-              </NavLink>
-            </li>
-            <li className="nav-li">
               <NavLink
                 to={`/verdskra`}
                 className={({ isActive }) =>
@@ -100,6 +90,17 @@ const Navigation = () => {
                 onClick={() => setIsNavOpen(false)}
               >
                 {t("nav-materials")}
+              </NavLink>
+            </li>
+            <li className="nav-li">
+              <NavLink
+                to={`/um-okkur`}
+                className={({ isActive }) =>
+                  isActive ? "text-maingold link" : "text-maindarkblue link"
+                }
+                onClick={() => setIsNavOpen(false)}
+              >
+                {t("nav-about")}
               </NavLink>
             </li>
             <li className="nav-li">
@@ -155,10 +156,15 @@ const Navigation = () => {
         <div className="half">
           <ul className="right-navlist">
             <li className="nav-li">
-              <NavLink to={`/#um-okkur`}>
-                <button className="link text-maindarkblue max-md:hidden">
-                  {t("nav-about")}
-                </button>
+              <NavLink
+                to={`/um-okkur`}
+                className={({ isActive }) =>
+                  isActive
+                    ? activeClassName
+                    : "text-maindarkblue link max-md:hidden"
+                }
+              >
+                {t("nav-about")}
               </NavLink>
             </li>
             <li className="nav-li">
@@ -177,7 +183,11 @@ const Navigation = () => {
         </div>
       </div>
       <div className="max-md:hidden absolute -left-2 mt-3 md:mt-0 flex items-center justify-end w-16 space-x-1 cursor-pointer text-maindarkblue hover:text-maingold fill-maindarkblue hover:fill-maingold duration-100 ease-in-out">
-        <a href="https://www.instagram.com/jokullogco/">
+        <a
+          href="https://www.instagram.com/jokullogco/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <svg
             class="w-6 h-6"
             fill="currentColor"

@@ -12,7 +12,7 @@ const MaterialsPageView = () => {
   return (
     <>
       <Suspense fallback={<Loading />}>
-        <section className="max-w-screen-xl mx-auto px-3 space-y-20 mb-12">
+        <div className="max-w-screen-lg mx-auto px-3 space-y-16 mb-12">
           <section
             id="materials-header"
             className="relative -mt-5 flex flex-col items-center justify-center text-center text-white py-0 px-3"
@@ -122,7 +122,7 @@ const MaterialsPageView = () => {
               <ImageCarousel images={skyrturefniImages} />
             </div>
           </div>
-        </section>
+        </div>
       </Suspense>
     </>
   );

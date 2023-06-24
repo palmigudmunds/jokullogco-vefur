@@ -9,6 +9,7 @@
     "header-main": "Book an appointment for your custom made clothing",
     "order-button": "Request an appointment",
     "contact-button": "Contact us",
+    "more-about-us-button": "More about us",
 
     "tailor-info-title": "What is made to measure?",
     "tailor-info-text-1": "Made to measure literally means “especially made to fit someone” but our process works like this: ",
@@ -42,6 +43,8 @@
     "prices-suits-double": "Tailored suits",
     "prices-suits-triple": "Tailored three-piece suits",
     "prices-shirts": "Tailored shirts",
+    "prices-overcoats": "Tailored overcoats",
+    "prices-raincoats": "Tailored raincoats",
     "prices-afiogeg-cufflinks": "Icelandic made Cufflinks from Afi & ég",
     "prices-afiogeg-tieclip": "Icelandic made tie clip from Afi & ég",
     "prices-knitted-tie": "Icelandic made hand knitted alpaca tie",

@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import PricesPageView from "./Views/PricesPage";
 import ContactPageView from "./Views/ContactPage";
 import MaterialsPageView from "./Views/MaterialsPage";
+import AboutUsPageView from "./Views/AboutUsPage";
 
 function App() {
 
@@ -50,6 +51,7 @@ function App() {
             <Route activeClassName='text-maingold' exact path="/verdskra" element={<PricesPageView/>}  />
             <Route activeClassName='text-maingold' exact path="/hafdu-samband" element={<ContactPageView/>}  />
             <Route activeClassName='text-maingold' exact path="/efnin" element={<MaterialsPageView/>}  />
+            <Route activeClassName='text-maingold' exact path="/um-okkur" element={<AboutUsPageView/>}  />
           </Routes>
           <Footer />
         </div>
