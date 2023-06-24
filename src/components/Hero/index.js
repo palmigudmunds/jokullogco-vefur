@@ -55,6 +55,8 @@ const Hero = () => {
               <a
                 className="bg-maingold text-white text-lg md:text-xl py-3 px-10 border border-white hover:bg-white hover:text-maingold hover:border-maingold ease-in-out duration-200"
                 href="https://noona.is/jokullogco/book"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 {t("order-button")}
               </a>

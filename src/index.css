@@ -19,12 +19,17 @@ h1 {
 
 h2 {
     font-family: 'Gelasio', serif;
-    @apply text-3xl md:text-4xl font-semibold text-black uppercase
+    @apply text-2xl md:text-3xl font-semibold text-black uppercase
 }
 
 h3 {
   font-family: 'Gelasio', serif;
   @apply text-xl md:text-2xl font-medium text-black uppercase
+}
+
+h4 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  @apply text-xl md:text-xl font-medium text-black
 }
 
 p {
@@ -65,6 +70,15 @@ p {
 
 #materials-header {
   background: url('https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1682068472/jokullogco/efni/jakkafot/5618-min_bchw8f.jpg') no-repeat 50%;
+  background-size: cover;
+  background-color: rgb(209 213 219);
+  margin-left: calc(-50vw + 50%);
+  width: 100vw;
+  @apply h-[30vh] lg:h-[45vh];
+}
+
+#aboutus-header {
+  background: url('https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1687605284/jokullogco/sections/basketball-suits-min_eit4rg.jpg') no-repeat 50%;
   background-size: cover;
   background-color: rgb(209 213 219);
   margin-left: calc(-50vw + 50%);
