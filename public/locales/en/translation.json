@@ -41,6 +41,7 @@
 
     "prices-title": "Prices",
 
+    "prices-garments-header": "Garments",
     "prices-suits-double": "Tailored suits",
     "prices-suits-triple": "Tailored three-piece suits",
     "prices-blazer": "Tailored blazer",
@@ -48,9 +49,11 @@
     "prices-vest": "Tailored vest",
     "prices-shirts": "Tailored shirt",
 
+    "prices-coats-header": "Coats",
     "prices-overcoats": "Tailored overcoat",
     "prices-raincoats": "Tailored raincoat",
 
+    "prices-accessories-header": "Accessories",
     "prices-italian-silk-tie": "Italian silk tie",
     "prices-italian-silk-cloth": "Italian silk cloth",
     "prices-afiogeg-cufflinks": "Icelandic made Cufflinks from Afi & ég",

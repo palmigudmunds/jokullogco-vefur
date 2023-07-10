@@ -21,7 +21,7 @@ const PricesPageView = () => {
             </div>
           </section>
           <div>
-            <h2 className="text-start md:text-start">Flíkur</h2>
+            <h2 className="text-start md:text-start">{t("prices-garments-header")}</h2>
             <div className="mt-5">
               <ul className="leaders space-y-7">
                 <li>
@@ -52,7 +52,7 @@ const PricesPageView = () => {
             </div>
           </div>
           <div>
-            <h2 className="text-start md:text-start">Yfirhafnir</h2>
+            <h2 className="text-start md:text-start">{t("prices-coats-header")}</h2>
             <div className="mt-5">
               <ul className="leaders space-y-7">
                 <li>
@@ -67,7 +67,7 @@ const PricesPageView = () => {
             </div>
           </div>
           <div>
-            <h2 className="text-start md:text-start">Aukahlutir</h2>
+            <h2 className="text-start md:text-start">{t("prices-accessories-header")}</h2>
             <div className="mt-5">
               <ul className="leaders space-y-7">
                 <li>

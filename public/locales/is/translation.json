@@ -42,6 +42,7 @@
 
     "prices-title": "Verðskrá",
 
+    "prices-garments-header": "Flíkur",
     "prices-suits-double": "Sérsaumuð jakkaföt",
     "prices-suits-triple": "Sérsaumuð þrískipt jakkaföt",
     "prices-blazer": "Sérsaumaður blazer",
@@ -49,9 +50,11 @@
     "prices-vest": "Sérsaumað vesti",
     "prices-shirts": "Sérsaumuð skyrta",
 
+    "prices-coats-header": "Yfirhafnir",
     "prices-overcoats": "Sérsaumaður ullarfrakki",
     "prices-raincoats": "Sérsaumaður regnfrakki",
 
+    "prices-accessories-header": "Aukahlutir",
     "prices-italian-silk-tie": "Ítalskt silki bindi",
     "prices-italian-silk-cloth": "Ítalskur silki vasaklútur",
     "prices-afiogeg-cufflinks": "Ermahnappar, Afi & ég",

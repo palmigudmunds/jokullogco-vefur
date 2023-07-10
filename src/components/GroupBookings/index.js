@@ -22,7 +22,7 @@ const GroupBookings = () => {
       id="hopabokanir"
       className="flex flex-col-reverse md:flex-row justify-center max-w-none"
     >
-      <div className="flex flex-col md:w-1/2 pt-8 md:pt-0">
+      <div className="flex flex-col md:w-1/2 pt-8 md:pt-0 items-center md:items-start">
         <img
           className="w-full h-auto object-cover xl:max-w-[32rem] max-w-[24rem]"
           src={custom}
