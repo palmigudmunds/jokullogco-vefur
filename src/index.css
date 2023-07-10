@@ -188,11 +188,11 @@ p {
 }
 
 ul.leaders {
-  max-width: 40em;
+  max-width: 45em;
   padding: 0;
   overflow-x: hidden;
   list-style: none;
-  @apply text-sm md:text-xl text-black
+  @apply text-sm md:text-xl text-black font-light
 }
 
 ul.leaders li:after {
@@ -229,6 +229,7 @@ input[type="email"],
 input[type="tel"],
 input[type="button"],
 input[type="submit"] {
+    resize: none;
      -webkit-appearance: none;
      border-radius: 0;
 }

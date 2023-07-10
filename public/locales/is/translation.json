@@ -10,7 +10,7 @@
     "order-button": "Bóka tíma",
     "contact-button": "Hafðu samband",
 
-    "tailor-info-title": "Sérsaumur",
+    "tailor-info-title": "Ferlið okkar",
     "tailor-info-text-1": "Sérsaumur þýðir bókstaflega “saumað fyrir ákveðinn einstakling” en hjá okkur er framgangurinn á þessa leið:",
     "tailor-info-text-2": "Bókaður tími.",
     "tailor-info-text-3": "Viðskiptavinur getur skoðað ótal jakkafataefni í öllum litum & mynstrum. Einnig skyrtuefni fyrir öll möguleg tilefni.",
@@ -26,7 +26,7 @@
     "contact-title": "Hafðu samband",
     "contact-text": "Heyrðu í okkur með því að nýta þetta form til að bóka tíma eða senda fyrirspurnir um ferlið, efni eða það sem liggur þér óljóst. Einnig getur þú sent okkur póst á jokull@jokullogco.com eða sent okkur á Facebook eða Instagram @jokullogco.",
     
-    "contact-group-title": "Hópbókanir",
+    "contact-group-title": "Hópabókanir",
     "contact-group-text": "Einnig er hægt að panta tíma fyrir þrjá eða fleiri í sérsaum samtímis, hentar vel fyrir fyrirtæki að gera vel við starfsmenn, fyrir giftingarliðið eða útskriftarhópinn.",
     "contact-name": "Nafn*",
     "contact-email": "Netfang*",
@@ -41,13 +41,21 @@
     "contact-submit": "Senda",
 
     "prices-title": "Verðskrá",
-    "prices-suits-double": "Sérsaumuð tveggja hl. jakkaföt",
-    "prices-suits-triple": "Sérsaumuð þriggja hl. jakkaföt",
-    "prices-shirts": "Sérsaumaðar skyrtur",
-    "prices-overcoats": "Sérsaumaðir frakkar",
-    "prices-raincoats": "Sérsaumaðir regnfrakkar",
-    "prices-afiogeg-cufflinks": "Ermahnappar frá Afi & ég",
-    "prices-afiogeg-tieclip": "Bindisklemma frá Afi & ég",
+
+    "prices-suits-double": "Sérsaumuð jakkaföt",
+    "prices-suits-triple": "Sérsaumuð þrískipt jakkaföt",
+    "prices-blazer": "Sérsaumaður blazer",
+    "prices-pants": "Sérsaumaðar buxur",
+    "prices-vest": "Sérsaumað vesti",
+    "prices-shirts": "Sérsaumuð skyrta",
+
+    "prices-overcoats": "Sérsaumaður ullarfrakki",
+    "prices-raincoats": "Sérsaumaður regnfrakki",
+
+    "prices-italian-silk-tie": "Ítalskt silki bindi",
+    "prices-italian-silk-cloth": "Ítalskur silki vasaklútur",
+    "prices-afiogeg-cufflinks": "Ermahnappar, Afi & ég",
+    "prices-afiogeg-tieclip": "Bindisklemma, Afi & ég",
     "prices-knitted-tie": "Handprjónað alpakka bindi",
     "prices-from": "Frá",
 

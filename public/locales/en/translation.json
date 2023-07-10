@@ -40,11 +40,19 @@
     "contact-submit": "Submit form",
 
     "prices-title": "Prices",
+
     "prices-suits-double": "Tailored suits",
     "prices-suits-triple": "Tailored three-piece suits",
-    "prices-shirts": "Tailored shirts",
-    "prices-overcoats": "Tailored overcoats",
-    "prices-raincoats": "Tailored raincoats",
+    "prices-blazer": "Tailored blazer",
+    "prices-pants": "Tailored pants",
+    "prices-vest": "Tailored vest",
+    "prices-shirts": "Tailored shirt",
+
+    "prices-overcoats": "Tailored overcoat",
+    "prices-raincoats": "Tailored raincoat",
+
+    "prices-italian-silk-tie": "Italian silk tie",
+    "prices-italian-silk-cloth": "Italian silk cloth",
     "prices-afiogeg-cufflinks": "Icelandic made Cufflinks from Afi & ég",
     "prices-afiogeg-tieclip": "Icelandic made tie clip from Afi & ég",
     "prices-knitted-tie": "Icelandic made hand knitted alpaca tie",
