@@ -34,7 +34,7 @@ const AboutUs = () => {
           </button>
         </div>
       </div>
-      <div className="flex flex-col items-end w-full pt-8 md:pt-0">
+      <div className="flex flex-col items-center sm:items-end w-full pt-8 md:pt-0">
         <img
           className="w-full h-auto object-cover xl:max-w-[32rem] max-w-[24rem]"
           src={umokkur}

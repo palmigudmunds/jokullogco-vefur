@@ -7,7 +7,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const sersaumur =
-  "https://res.cloudinary.com/dq2uenf18/video/upload/v1689023934/jokullogco/sections/Pa%CC%81lmi_M%C3%A6ling_yfjgaz.mp4";
+  "https://res.cloudinary.com/dq2uenf18/video/upload/q_auto,f_auto,fl_lossy/v1689023934/jokullogco/sections/Pa%CC%81lmi_M%C3%A6ling_yfjgaz.mp4";
 
 const TailoringInfo = () => {
   const { t } = useTranslation();
@@ -25,9 +25,7 @@ const TailoringInfo = () => {
       className="flex flex-col md:flex-row justify-center max-w-none"
     >
       <div className="md:w-full flex flex-col items-start">
-        <h2 className="text-start">
-          {t("tailor-info-title")}
-        </h2>
+        <h2 className="text-start">{t("tailor-info-title")}</h2>
         <p className="pt-5 md:w-10/12">
           {t("tailor-info-text-1")}
           <br></br>
@@ -60,7 +58,7 @@ const TailoringInfo = () => {
           </button>
         </div>
       </div>
-      <div className="flex flex-col items-center md:w-full pt-8 mt-14 md:pt-0">
+      <div className="flex flex-col items-center md:w-full pt-8 md:mt-14 md:pt-0">
         <video controls>
           <source src={sersaumur} type="video/mp4" />
         </video>
