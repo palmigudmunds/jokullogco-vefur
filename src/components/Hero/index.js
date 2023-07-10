@@ -5,13 +5,14 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const hero1 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1678990625/jokullogco/hero/hero_ncn5ch.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1689023366/jokullogco/hero/KSH05986-min_lnstsb.jpg";
 const hero2 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1678990631/jokullogco/hero/hero2_niyzqs.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1689023363/jokullogco/hero/DSC05558-min_k7bho6.jpg";
 const hero3 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1684672481/jokullogco/hero/frodi_p0rmyw.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1689023360/jokullogco/hero/DSC05649-min_d4nol6.jpg";
 const hero4 =
   "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1684669066/jokullogco/sections/KSH00795-min_pvibys.jpg";
+
 
 const Hero = () => {
   const { t } = useTranslation();

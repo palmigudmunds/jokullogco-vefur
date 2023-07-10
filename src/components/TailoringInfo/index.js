@@ -7,7 +7,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const sersaumur =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1684669632/jokullogco/sections/93B27C11-9F04-45B7-B967-10D7C6CB879D_1_201_a-min_dlnrke.jpg";
+  "https://res.cloudinary.com/dq2uenf18/video/upload/v1689023934/jokullogco/sections/Pa%CC%81lmi_M%C3%A6ling_yfjgaz.mp4";
 
 const TailoringInfo = () => {
   const { t } = useTranslation();
@@ -24,11 +24,11 @@ const TailoringInfo = () => {
       id="sersaumur"
       className="flex flex-col md:flex-row justify-center max-w-none"
     >
-      <div className="md:w-1/2 flex flex-col items-start md:items-center md:pt-10">
-        <h2 className="text-start md:text-start md:w-10/12 xl:w-8/12">
+      <div className="md:w-full flex flex-col items-start">
+        <h2 className="text-start">
           {t("tailor-info-title")}
         </h2>
-        <p className="pt-5 md:w-10/12 xl:w-8/12">
+        <p className="pt-5 md:w-10/12">
           {t("tailor-info-text-1")}
           <br></br>
           <br></br>
@@ -51,7 +51,7 @@ const TailoringInfo = () => {
           <b>V. </b>
           {t("tailor-info-text-6")}
         </p>
-        <div className="pt-7 flex flex items-start md:w-10/12 xl:w-8/12">
+        <div className="pt-7 flex flex items-start">
           <button
             className="bg-maingold text-white text-lg md:text-xl py-2 px-10 border border-white hover:bg-white hover:text-maingold hover:border-maingold ease-in-out duration-200"
             onClick={() => navigate("/efnin")}
@@ -60,12 +60,10 @@ const TailoringInfo = () => {
           </button>
         </div>
       </div>
-      <div className="flex flex-col items-center md:w-1/2 pt-8 md:pt-0">
-        <img
-          className="w-full h-auto object-cover xl:max-w-[32rem] max-w-[24rem]"
-          src={sersaumur}
-          alt="Materials"
-        />
+      <div className="flex flex-col items-center md:w-full pt-8 mt-14 md:pt-0">
+        <video controls>
+          <source src={sersaumur} type="video/mp4" />
+        </video>
       </div>
     </div>
   );
